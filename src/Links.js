@@ -14,19 +14,19 @@ export default function Links() {
         rel="noreferrer"
         aria-label="Go to check the register page"
       >
-        https://www.hcpc-uk.org/check-the-register/
+        Click here for more information
       </a>
       <p>
         Society of Chiropodists and Podiatrists (SOCAP) - check if your
         podiatrist is a member of SOCAP
       </p>
       <a
-        href="https://www.cop.org.uk/find-a-podiatrist/"
+        href="https://rcpod.org.uk/find-a-podiatrist#FIND.PODIATRIST"
         target="_blank"
         rel="noreferrer"
         aria-label="Go to check if your podiatrist is a member page"
       >
-        https://www.cop.org.uk/find-a-podiatrist/
+        Click here for more information
       </a>
       <p>Common foot problems - advice</p>
       <a
@@ -35,7 +35,7 @@ export default function Links() {
         rel="noreferrer"
         aria-label="Go to common foot problems page"
       >
-        https://www.cop.org.uk/foot-health/common-foot-problems/
+        Click here for more information
       </a>
     </div>
   );
