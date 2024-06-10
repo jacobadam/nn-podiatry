@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./Layout.js";
+import Nav from "./Nav.js";
 import Home from "./Home.js";
 import About from "./About.js";
 import Contact from "./Contact.js";
@@ -13,7 +13,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Nav />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="conditions" element={<Conditions />} />
