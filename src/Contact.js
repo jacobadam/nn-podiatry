@@ -1,6 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("contact_service", "contact_form", form.current, {
+        publicKey: "6WTU0L3Ur4LEzEGob",
+      })
+      .then(
+        () => {
+          console.log("Success!");
+        },
+        (error) => {
+          console.log("Failed...", error.text);
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <div>
       <div className="contactBox">
@@ -22,6 +44,18 @@ export default function Contact() {
         <p>Wavertree</p>
         <p>Liverpool, L15 6xU</p>
       </div>
+
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Name: </label>
+        <input type="text" name="user_name" required />
+        <label>Email: </label>
+        <input type="email" name="user_email" required />
+        <label>Phone: </label>
+        <input type="tel" name="user_number" required />
+        <label>Message: </label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form>
     </div>
   );
 }
