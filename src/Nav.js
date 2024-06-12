@@ -98,7 +98,7 @@ export default function Nav(props) {
           </>
         )}
       </Disclosure>
-      <div className="bg-gray-300 min-h-screen p-3">{props.children}</div>
+      <div className="bg-white min-h-screen">{props.children}</div>
     </>
   );
 }
