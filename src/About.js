@@ -11,15 +11,16 @@ export default function About() {
           </h2>
           <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
             <p class="mb-4">
-              We are strategists, designers and developers. Innovators and
-              problem solvers. Small enough to be simple and quick, but big
-              enough to deliver the scope you want at the pace you need. Small
-              enough to be simple and quick, but big enough to deliver the scope
-              you want at the pace you need.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              eleifend purus sed libero ultrices, eget accumsan metus congue. Ut
+              gravida sapien sit amet nunc lacinia commodo. Vivamus id imperdiet
+              turpis.
             </p>
             <p>
-              We are strategists, designers and developers. Innovators and
-              problem solvers. Small enough to be simple and quick.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              eleifend purus sed libero ultrices, eget accumsan metus congue. Ut
+              gravida sapien sit amet nunc lacinia commodo. Vivamus id imperdiet
+              turpis.
             </p>
           </div>
         </div>
