@@ -47,8 +47,6 @@ export default function Location() {
         <div className="mt-16 lg:mt-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="rounded-lg overflow-hidden">
-              {/* width="100%" height="480" style="border:0;" allowfullscreen=""
-              loading="lazy" */}
               <GoogleMap
                 mapContainerStyle={mapContainerStyle}
                 zoom={15}
@@ -65,14 +63,7 @@ export default function Location() {
                     183 Queens Drive, Liverpool, L15 6XU
                   </p>
                 </div>
-                <div className="border-t border-gray-200 px-6 py-4">
-                  <h3 className="text-lg font-medium text-gray-900">Hours</h3>
-                  <p className="mt-1 text-gray-600">
-                    Monday - Friday: 9am - 5pm
-                  </p>
-                  <p className="mt-1 text-gray-600">Saturday: 10am - 4pm</p>
-                  <p className="mt-1 text-gray-600">Sunday: Closed</p>
-                </div>
+
                 <div className="border-t border-gray-200 px-6 py-4">
                   <h3 className="text-lg font-medium text-gray-900">Contact</h3>
                   <p className="mt-1 text-gray-600">
