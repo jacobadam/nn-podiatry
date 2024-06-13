@@ -13,30 +13,27 @@ export default function Conditions() {
           <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
               <img
-                src="/ageing-feet.webp"
+                src="/diabetic-feet.webp"
                 alt=""
                 className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
               />
               <div className="mt-6 mb-2">
-                <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-600">
-                  Ageing Feet
+                <span className="block text-xs font-extrabold tracking-widest uppercase dark:text-rose-600">
+                  Diabetic Feet
                 </span>
-                <h2 className="text-xl font-semibold tracking-wide">
-                  Nam maximus purus
-                </h2>
               </div>
               <p className="dark:text-gray-800">
                 Mauris et lorem at elit tristique dignissim et ullamcorper elit.
                 In sed feugiat mi. Etiam ut lacinia dui.
               </p>
               <a
-                className="text-black"
-                href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
+                className="text-rose-600 font-bold"
+                href="https://rcpod.org.uk/patient-information/diabetes"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Go to ageing feet information page"
+                aria-label="Go to diabetes information page"
               >
-                Learn more
+                Learn more.
               </a>
             </div>
             <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
@@ -46,218 +43,149 @@ export default function Conditions() {
                 className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
               />
               <div className="mt-6 mb-2">
-                <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-600">
+                <span className="block text-xs font-extrabold tracking-widest uppercase dark:text-rose-600">
                   Ageing Feet
                 </span>
-                <h2 className="text-xl font-semibold tracking-wide">
-                  Nam maximus purus
-                </h2>
               </div>
               <p className="dark:text-gray-800">
                 Mauris et lorem at elit tristique dignissim et ullamcorper elit.
                 In sed feugiat mi. Etiam ut lacinia dui.
               </p>
               <a
-                className="text-black"
+                className="text-rose-600 font-bold"
                 href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Go to ageing feet information page"
               >
-                Learn more
-              </a>
-            </div>{" "}
-            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
-              <img
-                src="/ageing-feet.webp"
-                alt=""
-                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
-              />
-              <div className="mt-6 mb-2">
-                <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-600">
-                  Ageing Feet
-                </span>
-                <h2 className="text-xl font-semibold tracking-wide">
-                  Nam maximus purus
-                </h2>
-              </div>
-              <p className="dark:text-gray-800">
-                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-                In sed feugiat mi. Etiam ut lacinia dui.
-              </p>
-              <a
-                className="text-black"
-                href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Go to ageing feet information page"
-              >
-                Learn more
-              </a>
-            </div>{" "}
-            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
-              <img
-                src="/ageing-feet.webp"
-                alt=""
-                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
-              />
-              <div className="mt-6 mb-2">
-                <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-600">
-                  Ageing Feet
-                </span>
-                <h2 className="text-xl font-semibold tracking-wide">
-                  Nam maximus purus
-                </h2>
-              </div>
-              <p className="dark:text-gray-800">
-                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-                In sed feugiat mi. Etiam ut lacinia dui.
-              </p>
-              <a
-                className="text-black"
-                href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Go to ageing feet information page"
-              >
-                Learn more
-              </a>
-            </div>{" "}
-            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
-              <img
-                src="/ageing-feet.webp"
-                alt=""
-                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
-              />
-              <div className="mt-6 mb-2">
-                <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-600">
-                  Ageing Feet
-                </span>
-                <h2 className="text-xl font-semibold tracking-wide">
-                  Nam maximus purus
-                </h2>
-              </div>
-              <p className="dark:text-gray-800">
-                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-                In sed feugiat mi. Etiam ut lacinia dui.
-              </p>
-              <a
-                className="text-black"
-                href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Go to ageing feet information page"
-              >
-                Learn more
-              </a>
-            </div>{" "}
-            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
-              <img
-                src="/ageing-feet.webp"
-                alt=""
-                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
-              />
-              <div className="mt-6 mb-2">
-                <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-600">
-                  Ageing Feet
-                </span>
-                <h2 className="text-xl font-semibold tracking-wide">
-                  Nam maximus purus
-                </h2>
-              </div>
-              <p className="dark:text-gray-800">
-                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-                In sed feugiat mi. Etiam ut lacinia dui.
-              </p>
-              <a
-                className="text-black"
-                href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Go to ageing feet information page"
-              >
-                Learn more
-              </a>
-            </div>{" "}
-            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
-              <img
-                src="/ageing-feet.webp"
-                alt=""
-                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
-              />
-              <div className="mt-6 mb-2">
-                <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-600">
-                  Ageing Feet
-                </span>
-                <h2 className="text-xl font-semibold tracking-wide">
-                  Nam maximus purus
-                </h2>
-              </div>
-              <p className="dark:text-gray-800">
-                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-                In sed feugiat mi. Etiam ut lacinia dui.
-              </p>
-              <a
-                className="text-black"
-                href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Go to ageing feet information page"
-              >
-                Learn more
-              </a>
-            </div>{" "}
-            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
-              <img
-                src="/ageing-feet.webp"
-                alt=""
-                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
-              />
-              <div className="mt-6 mb-2">
-                <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-600">
-                  Ageing Feet
-                </span>
-                <h2 className="text-xl font-semibold tracking-wide">
-                  Nam maximus purus
-                </h2>
-              </div>
-              <p className="dark:text-gray-800">
-                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
-                In sed feugiat mi. Etiam ut lacinia dui.
-              </p>
-              <a
-                className="text-black"
-                href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Go to ageing feet information page"
-              >
-                Learn more
+                Learn more.
               </a>
             </div>
-            {/* <div className="group relative bg-white dark:bg-gray-800 rounded-lg p-4 border border-gray-300 dark:border-gray-700 transition duration-300 ease-in-out hover:bg-gray-100 dark:hover:bg-gray-700">
-              <h3 className="mb-2 text-xl font-bold dark:text-white">
-                Nails/Ageing feet
-              </h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                eleifend purus sed libero ultrices, eget accumsan metus congue.
-                Ut gravida sapien sit amet nunc lacinia commodo. Vivamus id
-                imperdiet turpis.
+            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
+              <img
+                src="/ingrowing-toenail.webp"
+                alt=""
+                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+              />
+              <div className="mt-6 mb-2">
+                <span className="block text-xs font-extrabold tracking-widest uppercase dark:text-rose-600">
+                  Ingrowing Toenail
+                </span>
+              </div>
+              <p className="dark:text-gray-800">
+                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
+                In sed feugiat mi. Etiam ut lacinia dui.
               </p>
+              <a
+                className="text-rose-600 font-bold"
+                href="https://rcpod.org.uk/common-foot-problems/ingrowing-toenail"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Go to ingrowing toenails information page"
+              >
+                Learn more.
+              </a>
             </div>
-
-            <div className="group relative bg-white dark:bg-gray-800 rounded-lg p-4 border border-gray-300 dark:border-gray-700 transition duration-300 ease-in-out hover:bg-gray-100 dark:hover:bg-gray-700">
-              <h3 className="mb-2 text-xl font-bold dark:text-white">
-                Ingrowing toenails
-              </h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                eleifend purus sed libero ultrices, eget accumsan metus congue.
-                Ut gravida sapien sit amet nunc lacinia commodo. Vivamus id
-                imperdiet turpis.
+            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
+              <img
+                src="/nail-surgery.webp"
+                alt=""
+                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+              />
+              <div className="mt-6 mb-2">
+                <span className="block text-xs font-extrabold tracking-widest uppercase dark:text-rose-600">
+                  Nail Surgery
+                </span>
+              </div>
+              <p className="dark:text-gray-800">
+                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
+                In sed feugiat mi. Etiam ut lacinia dui.
               </p>
-            </div> */}
+              <a
+                className="text-rose-600 font-bold"
+                href="https://rcpod.org.uk/patient-information/arthritis/arthritis-leaflets/toenail-surgery-for-people-with-a-rheumatic-condition"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Go to nail surgery information page"
+              >
+                Learn more.
+              </a>
+            </div>
+            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
+              <img
+                src="/corn-callus.webp"
+                alt=""
+                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+              />
+              <div className="mt-6 mb-2">
+                <span className="block text-xs font-extrabold tracking-widest uppercase dark:text-rose-600">
+                  Corns and callus
+                </span>
+              </div>
+              <p className="dark:text-gray-800">
+                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
+                In sed feugiat mi. Etiam ut lacinia dui.
+              </p>
+              <a
+                className="text-rose-600 font-bold"
+                href="https://rcpod.org.uk/common-foot-problems/corns-callus"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Go to corns and callus information page"
+              >
+                Learn more.
+              </a>
+            </div>
+            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
+              <img
+                src="/verrucae.webp"
+                alt=""
+                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+              />
+              <div className="mt-6 mb-2">
+                <span className="block text-xs font-extrabold tracking-widest uppercase dark:text-rose-600">
+                  Verrucae
+                </span>
+              </div>
+              <p className="dark:text-gray-800">
+                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
+                In sed feugiat mi. Etiam ut lacinia dui.
+              </p>
+              <a
+                className="text-rose-600 font-bold"
+                href="https://rcpod.org.uk/common-foot-problems/verrucae"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Go to verrucae information page"
+              >
+                Learn more.
+              </a>
+            </div>
+            <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-900">
+              <img
+                src="/msk-podiatry.webp"
+                alt=""
+                className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+              />
+              <div className="mt-6 mb-2">
+                <span className="block text-xs font-extrabold tracking-widest uppercase dark:text-rose-600">
+                  Musculoskeletal/Biomechanical issues
+                </span>
+              </div>
+              <p className="dark:text-gray-800">
+                Mauris et lorem at elit tristique dignissim et ullamcorper elit.
+                In sed feugiat mi. Etiam ut lacinia dui.
+              </p>
+              <a
+                className="text-rose-600 font-bold"
+                href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Go to ageing feet information page"
+              >
+                Learn more.
+              </a>
+            </div>
           </div>
 
           <div className="my-8 lg:my-16"></div>
@@ -295,125 +223,6 @@ export default function Conditions() {
               regular podiatry treatment. Evening appointments are also
               available.
             </p>
-          </div>
-        </div>
-      </section>
-      <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
-          <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-            <div className="flex items-center bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <div className="w-1/3">
-                <img
-                  className="w-full h-full rounded-l-lg object-cover"
-                  src="/diabetic-feet.webp"
-                  alt="Diabetic Feet"
-                />
-              </div>
-              <div className="p-5 w-2/3">
-                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Diabetes
-                </h3>
-                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  eleifend purus sed libero ultrices, eget accumsan metus
-                  congue.
-                </p>
-                <a
-                  className="inline-block px-4 py-2 text-white"
-                  href="https://rcpod.org.uk/patient-information/diabetes"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Go to diabetes information page"
-                >
-                  Learn more
-                </a>
-              </div>
-            </div>
-            <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-              <a href="#">
-                <img
-                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                  src="/ageing-feet.webp"
-                  alt="Jese Avatar"
-                />
-              </a>
-              <div class="p-5">
-                <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Nails/Ageing Feet</a>
-                </h3>
-                <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  eleifend purus sed libero ultrices, eget accumsan metus
-                  congue.
-                </p>
-                <a
-                  className="text-white"
-                  href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Go to ageing feet information page"
-                >
-                  Learn more
-                </a>
-              </div>
-            </div>
-            <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-              <a href="#">
-                <img
-                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                  src="/ingrowing-toenail.webp"
-                  alt="Ingrowing Toenail"
-                />
-              </a>
-              <div class="p-5">
-                <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Ingrowing Toenails</a>
-                </h3>
-                <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  eleifend purus sed libero ultrices, eget accumsan metus
-                  congue.
-                </p>
-                <a
-                  className="text-white"
-                  href="https://rcpod.org.uk/common-foot-problems/ingrowing-toenail"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Go to ingrowing toenails information page"
-                >
-                  Learn more
-                </a>
-              </div>
-            </div>
-            <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-              <a href="#">
-                <img
-                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                  src="/nail-surgery.webp"
-                  alt="Nail Surgery"
-                />
-              </a>
-              <div class="p-5">
-                <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Nail Surgery</a>
-                </h3>
-
-                <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                  eleifend purus sed libero ultrices, eget accumsan metus
-                  congue.
-                </p>
-                <a
-                  className="text-white"
-                  href="https://rcpod.org.uk/patient-information/arthritis/arthritis-leaflets/toenail-surgery-for-people-with-a-rheumatic-condition"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Go to nail surgery information page"
-                >
-                  Learn more
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
