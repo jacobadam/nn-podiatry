@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nn-podiatry/static/css/main.bad0b068.css",
-    "main.js": "/nn-podiatry/static/js/main.63892211.js",
+    "main.js": "/nn-podiatry/static/js/main.67c0c4fa.js",
     "static/media/homepage-image.webp": "/nn-podiatry/static/media/homepage-image.1d6bc05f56f2ab17e855.webp",
     "index.html": "/nn-podiatry/index.html",
     "main.bad0b068.css.map": "/nn-podiatry/static/css/main.bad0b068.css.map",
-    "main.63892211.js.map": "/nn-podiatry/static/js/main.63892211.js.map"
+    "main.67c0c4fa.js.map": "/nn-podiatry/static/js/main.67c0c4fa.js.map"
   },
   "entrypoints": [
     "static/css/main.bad0b068.css",
-    "static/js/main.63892211.js"
+    "static/js/main.67c0c4fa.js"
   ]
 }
