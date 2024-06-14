@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
-      <div className="w-full h-32">
+      <div className="w-full h-40">
         <img
           src="pebble-footprint.webp"
           alt="Banner"
@@ -18,10 +18,6 @@ export default function About() {
               Neil Nevitt
             </h2>
             <div className="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
-              <p className="mb-4">
-                I'm Neil Nevitt, an experienced podiatrist with a comprehensive
-                background in foot health.
-              </p>
               <p className="mb-4">
                 I earned my Chiropody diploma from the Northern College of
                 Chiropody in Salford. Post-qualification, I lectured at the

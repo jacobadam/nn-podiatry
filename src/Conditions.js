@@ -3,7 +3,7 @@ import React from "react";
 export default function Conditions() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
-      <div className="w-full h-32">
+      <div className="w-full h-40">
         <img
           src="pebble-footprint.webp"
           alt="Banner"

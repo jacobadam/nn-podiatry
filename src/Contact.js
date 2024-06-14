@@ -28,7 +28,7 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
-      <div className="w-full h-32">
+      <div className="w-full h-40">
         <img
           src="pebble-footprint.webp"
           alt="Banner"
@@ -41,7 +41,7 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="mb-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-            Evening Appointments Available.
+            Morning, Afternoon, and Evening Appointments Available
           </p>
           {messageSent && (
             <p className="text-center text-white text-xl font-bold">

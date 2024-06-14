@@ -3,7 +3,7 @@ import React from "react";
 export default function Podiatry() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
-      <div className="w-full h-32">
+      <div className="w-full h-40">
         <img
           src="pebble-footprint.webp"
           alt="Banner"
@@ -44,15 +44,12 @@ export default function Podiatry() {
                 from peripheral neuropathy (when there is a reduction in the
                 sensation in the feet). If not cared for, diabetics run a high
                 risk of serious foot problems, many of which can be prevented by
-                regular podiatry treatment. Evening appointments are also
-                available.
+                regular podiatry treatment.
               </p>
-              <p className="font-semibold text-gray-900 dark:text-white">
-                Links
-              </p>
+
               <p className="space-y-4 font-normal text-gray-500 dark:text-gray-400">
-                Health Care Professional Council (HCPC) - check if your
-                podiatrist is on the HCPC list
+                <strong>Health Care Professional Council (HCPC)</strong> - check
+                if your podiatrist is on the HCPC list
               </p>
               <a
                 href="https://www.hcpc-uk.org/check-the-register/"
@@ -64,8 +61,8 @@ export default function Podiatry() {
                 Click here for more information
               </a>
               <p className="space-y-4 font-normal text-gray-500 dark:text-gray-400">
-                Society of Chiropodists and Podiatrists (SOCAP) - check if your
-                podiatrist is a member of SOCAP
+                <strong>Society of Chiropodists and Podiatrists (SOCAP)</strong>{" "}
+                - check if your podiatrist is a member of SOCAP
               </p>
               <a
                 href="https://rcpod.org.uk/find-a-podiatrist#FIND.PODIATRIST"
@@ -76,7 +73,7 @@ export default function Podiatry() {
               >
                 Click here for more information
               </a>
-              <p className="space-y-4 font-normal text-gray-500 dark:text-gray-400">
+              {/* <p className="space-y-4 font-normal text-gray-500 dark:text-gray-400">
                 Common foot problems
               </p>
               <a
@@ -87,7 +84,7 @@ export default function Podiatry() {
                 className="text-rose-600 hover:underline"
               >
                 Click here for more information
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

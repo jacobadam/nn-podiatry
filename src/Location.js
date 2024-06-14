@@ -29,7 +29,7 @@ export default function Location() {
 
   return (
     <section className="bg-gray-100 min-h-screen">
-      <div className="w-full h-32">
+      <div className="w-full h-40">
         <img
           src="pebble-footprint.webp"
           alt="Banner"
@@ -40,16 +40,10 @@ export default function Location() {
         <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-extrabold text-gray-900">Location</h2>
           <p className="mt-4 text-lg text-gray-500">
-            The surgery is next door but one to the Weatherspoons Pub on the
-            Childwall Fiveways roundabout (formerly the Childwall Fiveways pub).
-            It is opposite Grosvenor Court and a small group of shops (including
-            Elif restaurant).
-          </p>
-          <p className="mt-4 text-lg text-gray-500">
-            Parking is sometimes available on the drive outside the surgery,
-            otherwise parking is available in the pub car park (Please note that
-            the pub car park is a "pay and display" car park. The charge is
-            50p).
+            The surgery is two doors down from the Wetherspoons (Childwall
+            Fiveways Hotel) and opposite Grosvenor Court. Parking is sometimes
+            available on the drive outside the surgery or paid parking is
+            available in the Wetherspoons car park.
           </p>
         </div>
         <div className="mt-16 lg:mt-20">

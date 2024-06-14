@@ -17,8 +17,8 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+            Experienced podiatrist with a comprehensive <br />
+            background in foot health
           </p>
 
           <div className="mt-8 flex flex-col items-center lg:items-end">
