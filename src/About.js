@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-gray-200">
+    <div className="min-h-screen bg-gray-100">
       <div className="w-full h-32">
         <img
           src="pebble-footprint.webp"

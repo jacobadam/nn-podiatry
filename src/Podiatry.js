@@ -10,7 +10,7 @@ export default function Podiatry() {
           className="w-full object-cover"
         />
       </div>
-      <section className="bg-gray-200 py-8 antialiased dark:bg-gray-900 md:py-16">
+      <section className="bg-gray-100 py-8 antialiased dark:bg-gray-900 md:py-16">
         <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
           <div className="mx-auto max-w-5xl text-center">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
