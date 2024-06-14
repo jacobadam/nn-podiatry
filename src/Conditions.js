@@ -3,9 +3,16 @@ import React from "react";
 export default function Conditions() {
   return (
     <>
+      <div className="w-full h-32">
+        <img
+          src="pebble-footprint.webp"
+          alt="Banner"
+          className="w-full object-cover"
+        />
+      </div>
       <section className="bg-gray-100 dark:bg-gray-900 min-h-screen flex flex-col justify-center items-center">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 text-center">
-          <div className="max-w-screen-xl mb-8 lg:mb-16">
+          <div className="max-w-screen-xl mb-8 ">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               Conditions Treated
             </h2>
@@ -189,41 +196,6 @@ export default function Conditions() {
           </div>
 
           <div className="my-8 lg:my-16"></div>
-
-          <div className="max-w-screen-xl mb-8 lg:mb-16">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              What is Podiatry?
-            </h2>
-            <p className="text-gray-500 dark:text-gray-400">
-              Podiatry (or chiropody) is the medical speciality of caring for
-              feet. (The terms podiatry and chiropody are interchangeable,
-              although there are a growing number of surgical podiatrists in the
-              UK who actually carry out ambulatory foot surgery on patients to
-              treat conditions such as bunions and hammer toes).
-              <br />
-              <br />
-              Podiatrists treat conditions on the feet such as hard skin, corns,
-              nails (and in particular, are specialists in treating ingrowing
-              toenails which can be cured by way of a minor surgical procedure
-              under a local anaesthetic - a procedure that can be carried out in
-              the surgery and takes less than an hour). We also treat verrucae
-              although the present advice is to leave verrucae alone unless they
-              are causing pain (this is following the recommendations of the
-              BMA) - painful verrucae can be treated with chemical cautery by
-              podiatrists.
-              <br />
-              <br />
-              Podiatrists also care for the feet of diabetics, whether insulin
-              or non-insulin dependent. Due to the effect of diabetes on the
-              feet, a diabetic is at greater risk of suffering from peripheral
-              vascular disease (circulatory problems) and they can also suffer
-              from peripheral neuropathy (when there is a reduction in the
-              sensation in the feet). If not cared for, diabetics run a high
-              risk of serious foot problems, many of which can be prevented by
-              regular podiatry treatment. Evening appointments are also
-              available.
-            </p>
-          </div>
         </div>
       </section>
     </>
