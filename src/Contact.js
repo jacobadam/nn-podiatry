@@ -32,11 +32,11 @@ export default function Contact() {
         <img
           src="pebble-footprint.webp"
           alt="Banner"
-          className="w-full object-cover"
+          className="w-full h-full object-cover"
         />
       </div>
       <section>
-        <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <div className="max-w-screen-md mx-auto p-4 sm:px-6 lg:px-8">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Me
           </h2>
@@ -56,7 +56,7 @@ export default function Contact() {
               <input
                 type="text"
                 name="user_name"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 required
               />
             </div>
@@ -67,7 +67,7 @@ export default function Contact() {
               <input
                 type="email"
                 name="user_email"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 required
               />
             </div>
@@ -78,7 +78,7 @@ export default function Contact() {
               <input
                 type="tel"
                 name="user_number"
-                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 required
               />
             </div>
@@ -90,7 +90,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 rows="6"
-                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-600 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-600 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500"
               ></textarea>
             </div>
             <button
@@ -106,37 +106,3 @@ export default function Contact() {
     </div>
   );
 }
-
-// <div>
-//   <div classNameName="contactBox">
-//     <h1>Contact Me</h1>
-//     <p>Tel No: 0151-722 3840</p>
-//     <p>Mobile No: 07946 582000</p>
-//     <p>Email: neilnev@hotmail.com</p>
-
-//     <h1>Appointment Times</h1>
-//     <p>Please contact me.</p>
-//     <p>Evenings available</p>
-
-//     <p>
-//       Receipts given for Medicash, Simply Health or other health providers
-//     </p>
-
-//     <h1>Address</h1>
-//     <p>183 Queens Drive</p>
-//     <p>Wavertree</p>
-//     <p>Liverpool, L15 6xU</p>
-//   </div>
-
-//   <form ref={form} onSubmit={sendEmail}>
-//     <label>Name: </label>
-//     <input type="text" name="user_name" required />
-//     <label>Email: </label>
-//     <input type="email" name="user_email" required />
-//     <label>Phone: </label>
-//     <input type="tel" name="user_number" required />
-//     <label>Message: </label>
-//     <textarea name="message" />
-//     <input type="submit" value="Send" />
-//   </form>
-// </div>
