@@ -18,7 +18,7 @@ export default function Conditions() {
         </div>
         <div className="w-fit gap-6 mx-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
           {/* card item */}
-          <div className="w-64 shadow-md dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
+          <div className="w-64 shadow-md rounded bg-white dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
@@ -47,7 +47,7 @@ export default function Conditions() {
             </div>
           </div>
           {/* card item */}
-          <div className="w-64 shadow-md dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
+          <div className="w-64 shadow-md rounded bg-white dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
@@ -77,7 +77,7 @@ export default function Conditions() {
             </div>
           </div>
           {/* card item */}
-          <div className="w-64 shadow-md dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
+          <div className="w-64 shadow-md rounded bg-white dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
@@ -106,7 +106,7 @@ export default function Conditions() {
             </div>
           </div>
           {/* card item */}
-          <div className="w-64 shadow-md dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
+          <div className="w-64 shadow-md rounded bg-white dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
@@ -135,7 +135,7 @@ export default function Conditions() {
             </div>
           </div>
           {/* card item */}
-          <div className="w-64 shadow-md dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
+          <div className="w-64 shadow-md rounded bg-white dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
@@ -165,7 +165,7 @@ export default function Conditions() {
             </div>
           </div>
           {/* card item */}
-          <div className="w-64 shadow-md dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
+          <div className="w-64 shadow-md rounded bg-white dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
@@ -195,7 +195,7 @@ export default function Conditions() {
             </div>
           </div>
           {/* card item */}
-          <div className="w-64 shadow-md dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
+          <div className="w-64 shadow-md rounded bg-white dark:bg-gray-700 hover:scale-105 duration-300 hover:shadow-xl h-96">
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
