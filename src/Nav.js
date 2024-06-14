@@ -6,6 +6,7 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavLink } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
@@ -23,7 +24,8 @@ function classNames(...classes) {
 export default function Nav(props) {
   return (
     <>
-      <Disclosure as="nav" className="bg-gray-800">
+      <ScrollToTop />
+      <Disclosure as="nav" className="bg-gray-800 fixed top-0 w-full z-10">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -97,7 +99,7 @@ export default function Nav(props) {
           </>
         )}
       </Disclosure>
-      <div className="bg-white min-h-screen">{props.children}</div>
+      <div className="pt-16 bg-white min-h-screen">{props.children}</div>
     </>
   );
 }
