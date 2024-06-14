@@ -5,7 +5,7 @@ import About from "./About.js";
 import Contact from "./Contact.js";
 import Conditions from "./Conditions.js";
 import Location from "./Location.js";
-import Links from "./Links.js";
+import Podiatry from "./Podiatry.js";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             <Route path="conditions" element={<Conditions />} />
             <Route path="contact" element={<Contact />} />
             <Route path="location" element={<Location />} />
-            <Route path="links" element={<Links />} />
+            <Route path="podiatry" element={<Podiatry />} />
           </Routes>
         </Nav>
       </BrowserRouter>
