@@ -30,7 +30,7 @@ export default function Contact() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="w-full h-40">
         <img
-          src="pebble-footprint.webp"
+          src="/nn-podiatry/pebble-footprint.webp"
           alt="Banner"
           className="w-full h-full object-cover"
         />
