@@ -40,7 +40,7 @@ export default function About() {
           <div className="flex justify-center items-center mt-8 lg:mt-0">
             <img
               className="w-48 sm:w-64 md:w-60 lg:w-68 xl:w-68 rounded-lg"
-              src="/nn-podiatry/neilnevitt.webp"
+              src="/neilnevitt.webp"
               alt="Neil Nevitt"
             />
           </div>

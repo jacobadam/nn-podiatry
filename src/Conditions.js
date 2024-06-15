@@ -5,7 +5,7 @@ export default function Conditions() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="w-full h-40">
         <img
-          src="/nn-podiatry/pebble-footprint.webp"
+          src="/pebble-footprint.webp"
           alt="Banner"
           className="w-full h-full object-cover"
         />
@@ -22,7 +22,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/nn-podiatry/diabetic-feet.webp"
+                src="/diabetic-feet.webp"
                 alt=""
               />
             </div>
@@ -51,7 +51,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/nn-podiatry/ageing-feet.webp"
+                src="/ageing-feet.webp"
                 alt=""
               />
             </div>
@@ -81,7 +81,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/nn-podiatry/ingrowing-toenail.webp"
+                src="/ingrowing-toenail.webp"
                 alt=""
               />
             </div>
@@ -110,7 +110,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/nn-podiatry/nail-surgery.webp"
+                src="/nail-surgery.webp"
                 alt=""
               />
             </div>
@@ -139,7 +139,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/nn-podiatry/corn-callus.webp"
+                src="/corn-callus.webp"
                 alt=""
               />
             </div>
@@ -169,7 +169,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/nn-podiatry/verrucae.webp"
+                src="/verrucae.webp"
                 alt=""
               />
             </div>
@@ -199,7 +199,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/nn-podiatry/msk-podiatry.webp"
+                src="/msk-podiatry.webp"
                 alt=""
               />
             </div>
