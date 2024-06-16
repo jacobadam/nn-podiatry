@@ -33,6 +33,7 @@ export default function Nav(props) {
                   <DisclosureButton
                     ref={buttonRef}
                     className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                    tabIndex="0"
                   >
                     <span className="sr-only">Open main menu</span>
                     {open ? (
@@ -58,21 +59,13 @@ export default function Nav(props) {
                             );
                           }}
                           aria-current={item.current ? "page" : undefined}
+                          tabIndex="0"
                         >
                           {item.name}
                         </NavLink>
                       ))}
                     </div>
                   </div>
-                </div>
-                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                  <button
-                    type="button"
-                    className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                  >
-                    <span className="absolute -inset-1.5" />
-                    <span className="sr-only">View notifications</span>
-                  </button>
                 </div>
               </div>
             </div>
@@ -92,6 +85,7 @@ export default function Nav(props) {
                       );
                     }}
                     aria-current={item.current ? "page" : undefined}
+                    tabIndex="0"
                     onClick={() => {
                       if (buttonRef.current) {
                         buttonRef.current.click();
