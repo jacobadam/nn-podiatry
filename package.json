@@ -1,7 +1,7 @@
 {
   "name": "nn-podiatry",
   "version": "0.1.0",
-  "homepage": "https://jacobadam.github.io/",
+  "homepage": "https://jacobadam.github.io/nn-podiatry",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
