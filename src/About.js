@@ -22,18 +22,24 @@ export default function About() {
                 I earned my Chiropody diploma from the Northern College of
                 Chiropody in Salford. Post-qualification, I lectured at the
                 college before relocating to Liverpool. Since 1979, I have
-                operated a private practice in Wavertree, alongside various
-                other roles including serving as an NHS podiatrist (1979-1984,
-                1990-2017), a podiatrist for ICI in Runcorn and Widnes
-                (1981-1985), and as the podiatrist for Liverpool Football Club
-                (1991-1994). From 2010 to 2017, I led the Podiatry Clinical Team
-                for the NHS in Liverpool, overseeing the delivery of quality
-                podiatric services. Currently, I work part-time as a podiatrist
-                at St Helens PCN.
+                operated a private practice in South Liverpool, alongside
+                various other roles including serving as an NHS podiatrist
+                (1979-1984, 1990-2017), a podiatrist for ICI in Runcorn and
+                Widnes (1981-1985), and as the podiatrist for Liverpool Football
+                Club (1991-1994). From 2010 to 2017, I managed the Community
+                Podiatry Team for the NHS in Liverpool, overseeing the delivery
+                of quality podiatric services. Currently, I work part-time in St
+                Helens Primary Care Network (NHS) as well as carrying out
+                private work in my Liverpool Practice.
               </p>
-              <p>
-                I remain dedicated to providing exceptional podiatric services
-                and look forward to addressing your foot health needs.
+              <p className="font-bold">
+                MCRPod - Member of the Royal College of Podiatry - membership
+                number - 07675
+              </p>
+              <br />
+              <p className="font-bold">
+                HCPC - Health Care Professional Council - membership number
+                CH06728
               </p>
             </div>
           </div>

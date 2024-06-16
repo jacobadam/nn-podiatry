@@ -40,10 +40,11 @@ export default function Location() {
         <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-extrabold text-gray-900">Location</h2>
           <p className="mt-4 text-lg text-gray-500">
-            The surgery is two doors down from the Wetherspoons (Childwall
-            Fiveways Hotel) and opposite Grosvenor Court. Parking is sometimes
-            available on the drive outside the surgery or paid parking is
-            available in the Wetherspoons car park.
+            The surgery is two doors down from the Wetherspoons (formerly
+            Childwall Fiveways Pub) at the Childwall Fiveways roundabout and
+            opposite Grosvenor Court. Parking is usually available on the drive
+            outside the surgery or paid parking is available in the Wetherspoons
+            car park.
           </p>
         </div>
         <div className="mt-16 lg:mt-20">

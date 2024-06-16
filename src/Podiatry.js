@@ -30,11 +30,11 @@ export default function Podiatry() {
                 corns, nails (and in particular, are specialists in treating
                 ingrowing toenails which can be cured by way of a minor surgical
                 procedure under a local anaesthetic - a procedure that can be
-                carried out in the surgery and takes less than an hour). We also
-                treat verrucae although the present advice is to leave verrucae
-                alone unless they are causing pain (this is following the
-                recommendations of the BMA) - painful verrucae can be treated
-                with chemical cautery by podiatrists.
+                carried out in the surgery and takes less than an hour).
+                Podiatrists also treat verrucae (plantar warts) although the
+                present advice of the BMA (British Medical Association) is to
+                not treat verrucae unless they are causing pain. Painful
+                verrucae can still be treated by podiarists.
               </p>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                 Podiatrists also care for the feet of diabetics, whether insulin
@@ -61,8 +61,8 @@ export default function Podiatry() {
                 Click here for more information
               </a>
               <p className="space-y-4 font-normal text-gray-500 dark:text-gray-400">
-                <strong>Society of Chiropodists and Podiatrists (SOCAP)</strong>{" "}
-                - check if your podiatrist is a member of SOCAP
+                <strong>Royal College of Podiatry</strong>- check if your
+                podiatrist is a member of the Royal College of Podiatry
               </p>
               <a
                 href="https://rcpod.org.uk/find-a-podiatrist#FIND.PODIATRIST"
