@@ -13,27 +13,12 @@ function App() {
       <BrowserRouter basename="/nn-podiatry">
         <Nav>
           <Routes>
-            <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
-            <Route
-              path={`${process.env.PUBLIC_URL}/about`}
-              element={<About />}
-            />
-            <Route
-              path={`${process.env.PUBLIC_URL}/conditions`}
-              element={<Conditions />}
-            />
-            <Route
-              path={`${process.env.PUBLIC_URL}/podiatry`}
-              element={<Podiatry />}
-            />
-            <Route
-              path={`${process.env.PUBLIC_URL}/contact`}
-              element={<Contact />}
-            />
-            <Route
-              path={`${process.env.PUBLIC_URL}/location`}
-              element={<Location />}
-            />
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="conditions" element={<Conditions />} />
+            <Route path="podiatry" element={<Podiatry />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="location" element={<Location />} />
           </Routes>
         </Nav>
       </BrowserRouter>
