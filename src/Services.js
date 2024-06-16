@@ -23,7 +23,7 @@ export default function Conditions() {
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/diabetic-feet.webp`}
-                alt=""
+                alt="Diabetic Feet"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold dark:text-white text-center">
@@ -52,7 +52,7 @@ export default function Conditions() {
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/ageing-feet.webp`}
-                alt=""
+                alt="Ageing Feet"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold dark:text-white text-center">
@@ -82,7 +82,7 @@ export default function Conditions() {
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/ingrowing-toenail.webp`}
-                alt=""
+                alt="Ingrowing Toenail"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold dark:text-white text-center">
@@ -111,7 +111,7 @@ export default function Conditions() {
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/nail-surgery.webp`}
-                alt=""
+                alt="Nail Surgery"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold dark:text-white text-center">
@@ -140,7 +140,7 @@ export default function Conditions() {
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/corn-callus.webp`}
-                alt=""
+                alt="Corn Callus"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold dark:text-white text-center">
@@ -170,7 +170,7 @@ export default function Conditions() {
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/verrucae.webp`}
-                alt=""
+                alt="Verucae"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold dark:text-white text-center">
@@ -200,7 +200,7 @@ export default function Conditions() {
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/msk-podiatry.webp`}
-                alt=""
+                alt="Musculoskeletal"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold dark:text-white text-center">
