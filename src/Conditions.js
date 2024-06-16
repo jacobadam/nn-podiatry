@@ -5,7 +5,7 @@ export default function Conditions() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="w-full h-40">
         <img
-          src="/pebble-footprint.webp"
+          src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
           alt="Banner"
           className="w-full h-full object-cover"
         />
@@ -22,7 +22,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/diabetic-feet.webp"
+                src={`${process.env.PUBLIC_URL}/diabetic-feet.webp`}
                 alt=""
               />
             </div>
@@ -51,7 +51,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/ageing-feet.webp"
+                src={`${process.env.PUBLIC_URL}/ageing-feet.webp`}
                 alt=""
               />
             </div>
@@ -81,7 +81,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/ingrowing-toenail.webp"
+                src={`${process.env.PUBLIC_URL}/ingrowing-toenail.webp`}
                 alt=""
               />
             </div>
@@ -110,7 +110,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/nail-surgery.webp"
+                src={`${process.env.PUBLIC_URL}/nail-surgery.webp`}
                 alt=""
               />
             </div>
@@ -139,7 +139,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/corn-callus.webp"
+                src={`${process.env.PUBLIC_URL}/corn-callus.webp`}
                 alt=""
               />
             </div>
@@ -169,7 +169,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/verrucae.webp"
+                src={`${process.env.PUBLIC_URL}/verrucae.webp`}
                 alt=""
               />
             </div>
@@ -199,7 +199,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src="/msk-podiatry.webp"
+                src={`${process.env.PUBLIC_URL}/msk-podiatry.webp`}
                 alt=""
               />
             </div>

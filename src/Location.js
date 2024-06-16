@@ -31,7 +31,7 @@ export default function Location() {
     <section className="bg-gray-100 min-h-screen">
       <div className="w-full h-40">
         <img
-          src="/pebble-footprint.webp"
+          src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
           alt="Banner"
           className="w-full h-full object-cover"
         />

@@ -5,7 +5,7 @@ export default function Podiatry() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="w-full h-40">
         <img
-          src="/pebble-footprint.webp"
+          src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
           alt="Banner"
           className="w-full h-full object-cover"
         />
