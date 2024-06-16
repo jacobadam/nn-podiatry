@@ -13,7 +13,7 @@ export default function Conditions() {
       <div className="bg-slate-100 mx-auto py-2 px-4 dark:bg-gray-800">
         <div className="text-center text-2xl py-2 font-medium tracking-wider dark:text-white">
           <h2 className="mb-6 text-4xl font-extrabold text-gray-900 dark:text-white">
-            Conditions Treated
+            Our Services
           </h2>
         </div>
         <div className="w-fit gap-6 mx-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
