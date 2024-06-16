@@ -8,9 +8,9 @@ export default function Home() {
 
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 max-lg:h-screen">
         <div className="max-w-xl text-center lg:text-right mx-auto lg:ml-auto lg:mr-0">
-          <h1 className="text-3xl font-extrabold sm:text-5xl">
+          <h1 className="text-3xl font-bold sm:text-5xl">
             Neil Nevitt
-            <strong className="block font-extrabold text-rose-700">
+            <strong className="block font-bold text-rose-700">
               DPodM, MRCPod
             </strong>
           </h1>
