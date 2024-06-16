@@ -37,7 +37,7 @@ export default function Contact() {
       </div>
       <section>
         <div className="max-w-screen-md mx-auto p-4 sm:px-6 lg:px-8">
-          <h2 className="mb-4 text-4xl tracking-tight font-bold text-center text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-3xl tracking-tight font-bold text-center text-gray-900 dark:text-white">
             Contact Me
           </h2>
           <p className="mb-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">

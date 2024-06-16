@@ -13,7 +13,7 @@ export default function Podiatry() {
       <section className="py-4 antialiased dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="mb-8 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
+            <h2 className="mb-8 text-3xl tracking-tight font-bold text-gray-900 dark:text-white">
               What is Podiatry?
             </h2>
 
