@@ -5,7 +5,7 @@ export default function About() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="w-full h-40">
         <img
-          src="/pebble-footprint.webp"
+          src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
           alt="Banner"
           className="w-full h-full object-cover"
         />
@@ -40,7 +40,7 @@ export default function About() {
           <div className="flex justify-center items-center mt-8 lg:mt-0">
             <img
               className="w-48 sm:w-64 md:w-60 lg:w-68 xl:w-68 rounded-lg"
-              src="/neilnevitt.webp"
+              src={`${process.env.PUBLIC_URL}/neilnevitt.webp`}
               alt="Neil Nevitt"
             />
           </div>
