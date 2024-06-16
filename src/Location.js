@@ -1,9 +1,9 @@
 import React from "react";
-import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
+import { APIProvider, Map, AdvancedMarker } from "@vis.gl/react-google-maps";
 
-const apiKey = process.env.REACT_APP_GOOGLE_API_KEY;
+const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
+const MAP_ID = process.env.REACT_APP_MAP_ID;
 
-const libraries = ["places"];
 const mapContainerStyle = {
   width: "100%",
   height: "480px",
@@ -14,19 +14,6 @@ const center = {
 };
 
 export default function Location() {
-  const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: apiKey,
-    libraries,
-  });
-
-  if (loadError) {
-    return <div>Error loading maps</div>;
-  }
-
-  if (!isLoaded) {
-    return <div>Loading maps</div>;
-  }
-
   return (
     <section className="bg-gray-100 min-h-screen">
       <div className="w-full h-40">
@@ -50,13 +37,17 @@ export default function Location() {
         <div className="mt-16 lg:mt-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="rounded-lg overflow-hidden">
-              <GoogleMap
-                mapContainerStyle={mapContainerStyle}
-                zoom={15}
-                center={center}
-              >
-                <MarkerF position={center} />
-              </GoogleMap>
+              <APIProvider apiKey={API_KEY}>
+                <Map
+                  style={mapContainerStyle}
+                  defaultCenter={center}
+                  defaultZoom={15}
+                  mapId={MAP_ID}
+                  gestureHandling={"greedy"}
+                >
+                  <AdvancedMarker position={center} />
+                </Map>
+              </APIProvider>
             </div>
             <div>
               <div className="max-w-full mx-auto rounded-lg overflow-hidden">
@@ -66,7 +57,6 @@ export default function Location() {
                     183 Queens Drive, Liverpool, L15 6XU
                   </p>
                 </div>
-
                 <div className="border-t border-gray-200 px-6 py-4">
                   <h3 className="text-lg font-medium text-gray-900">Contact</h3>
                   <p className="mt-1 text-gray-600">
