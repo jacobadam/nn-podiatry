@@ -44,7 +44,7 @@ export default function Contact() {
             Morning, Afternoon, and Evening Appointments Available
           </p>
           {messageSent && (
-            <p className="text-center text-white text-xl font-bold">
+            <p className="text-center text-rose-600 text-xl font-bold">
               Message sent!
             </p>
           )}

@@ -41,7 +41,7 @@ export default function Location() {
                 <Map
                   style={mapContainerStyle}
                   defaultCenter={center}
-                  defaultZoom={15}
+                  defaultZoom={14}
                   mapId={MAP_ID}
                   gestureHandling={"greedy"}
                 >
