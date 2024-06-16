@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import {
   Disclosure,
   DisclosureButton,
@@ -17,11 +17,9 @@ const navigation = [
   { name: "Location", href: "/location", current: false },
 ];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
 export default function Nav(props) {
+  const buttonRef = useRef(null);
+
   return (
     <>
       <ScrollToTop />
@@ -32,7 +30,10 @@ export default function Nav(props) {
               <div className="relative flex h-16 items-center justify-between">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <DisclosureButton
+                    ref={buttonRef}
+                    className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                  >
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -79,20 +80,26 @@ export default function Nav(props) {
             <DisclosurePanel className="sm:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2">
                 {navigation.map((item) => (
-                  <DisclosureButton
+                  <NavLink
                     key={item.name}
-                    as="a"
-                    href={item.href}
-                    className={classNames(
-                      item.current
-                        ? "bg-gray-900 text-white"
-                        : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                      "block rounded-md px-3 py-2 text-base font-medium"
-                    )}
+                    to={item.href}
+                    className={({ isActive }) => {
+                      return (
+                        "block rounded-md px-3 py-2 text-base font-medium " +
+                        (isActive
+                          ? "bg-gray-700 text-white"
+                          : "text-gray-300 hover:bg-gray-700 hover:text-white")
+                      );
+                    }}
                     aria-current={item.current ? "page" : undefined}
+                    onClick={() => {
+                      if (buttonRef.current) {
+                        buttonRef.current.click();
+                      }
+                    }}
                   >
                     {item.name}
-                  </DisclosureButton>
+                  </NavLink>
                 ))}
               </div>
             </DisclosurePanel>
