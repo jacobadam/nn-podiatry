@@ -15,16 +15,18 @@ export default function Home() {
             </strong>
           </h1>
 
-          <p className="mt-4 max-w-lg sm:text-xl/relaxed">
+          <p className="mt-3 sm:text-xl/relaxed">
             <strong>HCPC (State) Registered</strong>
           </p>
 
-          <p className="mt-4 max-w-lg sm:text-xl/relaxed">
+          <p className="mt-3 sm:text-xl/relaxed">
             Experienced podiatrist with a comprehensive <br />
             background in foot health
           </p>
 
-          <div className="mt-8 flex flex-col items-center lg:items-end">
+          <p className="mt-2 font-bold sm:text-m/relaxed">0151-722 3840</p>
+
+          <div className="mt-4 flex flex-col items-center lg:items-end">
             <Link
               to="/contact"
               className="block w-full rounded bg-rose-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
