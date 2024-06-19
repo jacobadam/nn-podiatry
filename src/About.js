@@ -19,17 +19,17 @@ export default function About() {
             </h2>
             <div className="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
               <p className="mb-4">
-                I earned my Chiropody diploma from the Northern College of
-                Chiropody in Salford. Post-qualification, I lectured at the
-                college before relocating to Liverpool. Since 1979, I have
-                operated a private practice in South Liverpool, alongside
-                various other roles including serving as an NHS podiatrist
-                (1979-1984, 1990-2017), a podiatrist for ICI in Runcorn and
+                I qualified as a chiropodist at the Northern College of
+                Chiropody, Salford (now Salford University). Post-qualification,
+                I lectured at the college before relocating to Liverpool. Since
+                1979, I have operated a private practice in South Liverpool, as
+                well as various other roles including being employed as an NHS
+                podiatrist for many years, a podiatrist for ICI in Runcorn and
                 Widnes (1981-1985), and as the podiatrist for Liverpool Football
-                Club (1991-1994). From 2010 to 2017, I managed the Community
+                Club (1991-1994). From 2000 to 2017, I managed the Community
                 Podiatry Team for the NHS in Liverpool, overseeing the delivery
-                of quality podiatric services. Currently, I work part-time in St
-                Helens Primary Care Network (NHS) as well as carrying out
+                of quality podiatric services. Currently, I work part-time for
+                St.Helens Primary Care Network (NHS) as well as carrying out
                 private work in my Liverpool Practice.
               </p>
               <p className="font-bold">
