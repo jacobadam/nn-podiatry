@@ -43,12 +43,24 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="flex justify-center items-center mt-8 lg:mt-0">
+          <div className="flex justify-center flex-col items-center mt-8 lg:mt-0">
             <img
-              className="w-48 sm:w-64 md:w-60 lg:w-68 xl:w-68 rounded-lg"
+              className="w-48 md:w-60 lg:w-68 xl:w-68 rounded-lg"
               src={`${process.env.PUBLIC_URL}/neilnevitt.webp`}
               alt="Neil Nevitt"
             />
+            <div className="flex mt-8 lg:mt-2 lg:pt-16">
+              <img
+                className="w-32 sm:pr-4 pr-6 "
+                src={`${process.env.PUBLIC_URL}/rcp.webp`}
+                alt="RCP Logo"
+              />
+              <img
+                className="w-32 sm:pr-4 pl-6"
+                src={`${process.env.PUBLIC_URL}/hcpc.webp`}
+                alt="HCPC Logo"
+              />
+            </div>
           </div>
         </section>
       </div>

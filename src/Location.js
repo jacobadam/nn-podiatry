@@ -65,6 +65,13 @@ export default function Location() {
                   <p className="mt-1 text-gray-600">Tel: 0151-722 3840</p>
                   <p className="mt-1 text-gray-600">Mob: 07946582000</p>
                 </div>
+                <div className="border-t border-gray-200 px-6 py-4">
+                  <img
+                    className="w-48 sm:w-64 md:w-60 lg:w-68 xl:w-68 rounded-lg"
+                    src={`${process.env.PUBLIC_URL}/accepted-cards.webp`}
+                    alt="Cards Logo"
+                  />
+                </div>
               </div>
             </div>
           </div>
