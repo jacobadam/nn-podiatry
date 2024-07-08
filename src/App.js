@@ -10,7 +10,7 @@ import Podiatry from "./Podiatry.js";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/nn-podiatry">
+      <BrowserRouter>
         <Nav>
           <Routes>
             <Route path="/" element={<Home />} />
