@@ -24,7 +24,9 @@ export default function Home() {
             background in foot health
           </p>
 
-          <p className="mt-2 font-bold sm:text-m/relaxed">0151-722 3840</p>
+          <p className="mt-2 font-bold sm:text-m/relaxed text-rose-700">
+            0151 722 3840 / 07946 582000
+          </p>
 
           <div className="mt-4 flex flex-col items-center lg:items-end">
             <Link
