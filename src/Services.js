@@ -12,7 +12,7 @@ export default function Conditions() {
       </div>
       <div className="bg-slate-100 mx-auto py-2 px-4 dark:bg-gray-800">
         <div className="text-center text-2xl py-2 font-medium tracking-wider dark:text-white">
-          <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+          <h2 className="mb-8 text-3xl tracking-tight font-bold text-gray-900 dark:text-white">
             Our Services
           </h2>
         </div>
