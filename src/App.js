@@ -6,6 +6,7 @@ import Contact from "./Contact.js";
 import Services from "./Services.js";
 import Location from "./Location.js";
 import Podiatry from "./Podiatry.js";
+import NotFound from "./NotFound.js";
 
 function App() {
   return (
@@ -19,10 +20,12 @@ function App() {
             <Route path="podiatry" element={<Podiatry />} />
             <Route path="contact" element={<Contact />} />
             <Route path="location" element={<Location />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Nav>
       </BrowserRouter>
     </div>
   );
 }
+
 export default App;
