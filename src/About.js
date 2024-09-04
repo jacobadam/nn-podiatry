@@ -8,16 +8,26 @@ export default function About() {
           src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
           alt="Banner"
           className="w-full h-full object-cover"
+          aria-label="Banner Image"
         />
       </div>
 
       <div className="flex items-center justify-center py-8 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-12">
-        <section className="bg-white dark:bg-gray-800 py-8 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 mx-auto max-w-full sm:max-w-lg md:max-w-xl lg:max-w-4xl xl:max-w-4xl rounded-lg shadow-lg lg:grid lg:grid-cols-2 lg:gap-8">
+        <section
+          className="bg-white dark:bg-gray-800 py-8 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 mx-auto max-w-full sm:max-w-lg md:max-w-xl lg:max-w-4xl xl:max-w-4xl rounded-lg shadow-lg lg:grid lg:grid-cols-2 lg:gap-8"
+          aria-labelledby="about-title"
+        >
           <div className="text-center lg:text-left lg:pt-2">
-            <h2 className="mb-4 text-3xl tracking-tight font-bold text-gray-900 dark:text-white">
+            <h2
+              id="about-title"
+              className="mb-4 text-3xl tracking-tight font-bold text-gray-900 dark:text-white"
+            >
               Neil Nevitt
             </h2>
-            <div className="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
+            <div
+              className="font-light text-gray-500 dark:text-gray-400 sm:text-lg"
+              aria-label="Biography of Neil Nevitt"
+            >
               <p className="mb-4">
                 I qualified as a chiropodist at the Northern College of
                 Chiropody, Salford (now Salford University). Post-qualification,
@@ -43,7 +53,10 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="flex justify-center flex-col items-center mt-8 lg:mt-0">
+          <div
+            className="flex justify-center flex-col items-center mt-8 lg:mt-0"
+            aria-label="Images of Neil Nevitt and logos"
+          >
             <img
               className="w-48 md:w-60 lg:w-68 xl:w-68 rounded-lg"
               src={`${process.env.PUBLIC_URL}/neilnevitt.webp`}
@@ -51,14 +64,14 @@ export default function About() {
             />
             <div className="flex mt-8 lg:mt-2 lg:pt-16">
               <img
-                className="w-32 sm:pr-4 pr-6 "
+                className="w-32 sm:pr-4 pr-6"
                 src={`${process.env.PUBLIC_URL}/rcp.webp`}
-                alt="RCP Logo"
+                alt="Royal College of Podiatry logo"
               />
               <img
                 className="w-32 sm:pr-4 pl-6"
                 src={`${process.env.PUBLIC_URL}/hcpc.webp`}
-                alt="HCPC Logo"
+                alt="Health Care Professional Council logo"
               />
             </div>
           </div>
