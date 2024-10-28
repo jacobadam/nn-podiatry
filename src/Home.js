@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Home() {
+  useEffect(() => {
+    const preloadImage = new Image();
+    preloadImage.src = "../public/homepage-image.webp";
+  }, []);
+
   return (
     <section
       className="relative bg-[url('../public/homepage-image.webp')] bg-cover bg-center bg-no-repeat bg-transparent"
