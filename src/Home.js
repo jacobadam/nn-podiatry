@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <section
-      className="relative bg-[url('../public/homepage-image.jpg')] bg-cover bg-center bg-no-repeat bg-transparent"
+      className="relative bg-[url('../public/homepage-image.webp')] bg-cover bg-center bg-no-repeat bg-transparent"
       aria-labelledby="home-title"
     >
       <div className="absolute inset-0 bg-white/75"></div>
