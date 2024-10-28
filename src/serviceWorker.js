@@ -17,9 +17,11 @@ export function register(config) {
       if (isLocalhost) {
         checkValidServiceWorker(swUrl, config);
         navigator.serviceWorker.ready.then(() => {
-          console.log(
-            "This web app is being served cache-first by a service worker."
-          );
+          if (process.env.NODE_ENV === "development") {
+            console.log(
+              "This web app is being served cache-first by a service worker."
+            );
+          }
         });
       } else {
         registerValidSW(swUrl, config);
@@ -40,15 +42,19 @@ function registerValidSW(swUrl, config) {
         installingWorker.onstatechange = () => {
           if (installingWorker.state === "installed") {
             if (navigator.serviceWorker.controller) {
-              console.log(
-                "New content is available and will be used when all tabs for this page are closed."
-              );
+              if (process.env.NODE_ENV === "development") {
+                console.log(
+                  "New content is available and will be used when all tabs for this page are closed."
+                );
+              }
 
               if (config && config.onUpdate) {
                 config.onUpdate(registration);
               }
             } else {
-              console.log("Content is cached for offline use.");
+              if (process.env.NODE_ENV === "development") {
+                console.log("Content is cached for offline use.");
+              }
 
               if (config && config.onSuccess) {
                 config.onSuccess(registration);
@@ -59,7 +65,9 @@ function registerValidSW(swUrl, config) {
       };
     })
     .catch((error) => {
-      console.error("Error during service worker registration:", error);
+      if (process.env.NODE_ENV === "development") {
+        console.error("Error during service worker registration:", error);
+      }
     });
 }
 
@@ -83,9 +91,11 @@ function checkValidServiceWorker(swUrl, config) {
       }
     })
     .catch(() => {
-      console.log(
-        "No internet connection found. App is running in offline mode."
-      );
+      if (process.env.NODE_ENV === "development") {
+        console.log(
+          "No internet connection found. App is running in offline mode."
+        );
+      }
     });
 }
 
@@ -96,7 +106,9 @@ export function unregister() {
         registration.unregister();
       })
       .catch((error) => {
-        console.error(error.message);
+        if (process.env.NODE_ENV === "development") {
+          console.error(error.message);
+        }
       });
   }
 }
