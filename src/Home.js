@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
+import homepageImage from "../public/homepage-image.webp";
+import homepageImageMobile from "../public/homepage-image-mobile.webp";
 
 export default function Home() {
   useEffect(() => {
-    const preloadImages = [
-      "../public/homepage-image.webp",
-      "../public/homepage-image-mobile.webp",
-    ];
+    const preloadImages = [homepageImage, homepageImageMobile];
     preloadImages.forEach((src) => {
       const img = new Image();
       img.src = src;
