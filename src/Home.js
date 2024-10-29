@@ -4,8 +4,14 @@ import "./index.css";
 
 export default function Home() {
   useEffect(() => {
-    const preloadImage = new Image();
-    preloadImage.src = "../public/homepage-image.webp";
+    const preloadImages = [
+      "../public/homepage-image.webp",
+      "../public/homepage-image-mobile.webp",
+    ];
+    preloadImages.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
   }, []);
 
   return (
