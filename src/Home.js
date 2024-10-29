@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import "./index.css";
 
 export default function Home() {
   useEffect(() => {
@@ -9,7 +10,7 @@ export default function Home() {
 
   return (
     <section
-      className="relative bg-[url('../public/homepage-image.webp')] bg-cover bg-center bg-no-repeat bg-transparent"
+      className="relative bg-home-mobile lg:bg-home-desktop bg-cover bg-center bg-no-repeat"
       aria-labelledby="home-title"
     >
       <div className="absolute inset-0 bg-white/75"></div>
