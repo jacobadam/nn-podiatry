@@ -22,9 +22,9 @@ export default function Home() {
       <div className="absolute inset-0 bg-white/50"></div>
 
       {/* Container */}
-      <div className="flex flex-col lg:flex-row relative mx-auto max-w-screen-l pr-12 pl-6 2xl:pl-16 min-h-screen lg:justify-between">
+      <div className="flex flex-col lg:flex-row relative mx-auto max-w-screen-l pr-12 2xl:pr-24 pl-6 2xl:pl-16 min-h-screen lg:justify-between">
         {/* Slogan */}
-        <blockquote className="lg:flex-grow lg:flex lg:items-end lg:mb-24 2xl:mb-40">
+        <blockquote className="lg:flex-grow lg:flex lg:items-end lg:mb-20 2xl:mb-40">
           <p className="font-semibold text-2xl md:text-4xl leading-relaxed text-grey-900 text-center font-monserrat bg-blue-600 bg-opacity-5 p-4 shadow-lg">
             Compassionate Foot Care <br /> from an Experienced, <br />
             Trusted Professional
@@ -32,7 +32,7 @@ export default function Home() {
         </blockquote>
 
         {/* Info Section */}
-        <div className="flex flex-col text-center items-center mt-16 mb-16 lg:mt-8 lg:items-end lg:w-1/2">
+        <div className="flex flex-col text-center items-center mt-16 mb-16 lg:mt-8">
           <h1 id="home-title" className="font-bold text-5xl">
             Neil Nevitt
             <strong className="block text-center font-semibold text-2xl text-blue-600">
