@@ -4,8 +4,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      screens: {
-        "max-lg": { max: "1024px" },
+      fontFamily: {
+        sans: ["Lato", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
