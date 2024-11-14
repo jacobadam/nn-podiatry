@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           {/* Info Box */}
-          <div className="bg-white text-left shadow-lg rounded-lg p-4 xl:p-6 mt-8 lg:mt-4 max-w-md bg-opacity-35">
+          <div className="bg-white text-left shadow-lg rounded-lg p-4 xl:p-6 mt-8 lg:mt-4 max-w-md bg-opacity-80 lg:bg-opacity-55 xl:bg-opacity-35">
             <div className="flex items-center mt-2 text-gray-700 font-semibold">
               <img
                 src="feet3.svg"
