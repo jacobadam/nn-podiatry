@@ -22,26 +22,26 @@ export default function Home() {
       <div className="absolute inset-0 bg-white/50"></div>
 
       {/* Container */}
-      <div className="flex flex-col lg:flex-row relative mx-auto max-w-screen-l pr-12 2xl:pr-24 pl-6 2xl:pl-16 min-h-screen lg:justify-between">
+      <div className="flex flex-col lg:flex-row relative mx-auto max-w-screen-l pr-4 xl:pr-12 2xl:pr-24 pl-6 2xl:pl-16 min-h-screen lg:justify-between">
         {/* Slogan */}
-        <blockquote className="lg:flex-grow lg:flex lg:items-end lg:mb-20 2xl:mb-40">
-          <p className="font-semibold text-2xl md:text-4xl leading-relaxed text-grey-900 text-center font-monserrat bg-blue-600 bg-opacity-5 p-4 shadow-lg">
-            Compassionate Foot Care <br /> from an Experienced, <br />
+        <blockquote className="lg:flex-grow lg:flex lg:items-end lg:mb-20 2xl:mb-36">
+          <p className="font-semibold text-xl lg:text:2xl xl:text-4xl leading-relaxed text-gray-600 text-center font-sans bg-blue-600 bg-opacity-5 p-4 2xl:p-12 shadow-lg">
+            Compassionate Foot Care <br /> From an Experienced, <br />
             Trusted Professional
           </p>
         </blockquote>
 
         {/* Info Section */}
-        <div className="flex flex-col text-center items-center mt-16 mb-16 lg:mt-8">
-          <h1 id="home-title" className="font-bold text-5xl">
+        <div className="flex flex-col text-center items-center mt-8 lg:mt-16 mb-16 xl:mt-20 2xl:mt-32">
+          <h1 id="home-title" className="font-bold text-4xl lg:text-5xl">
             Neil Nevitt
-            <strong className="block text-center font-semibold text-2xl text-blue-600">
+            <strong className="block text-center font-semibold text-xl lg:text-2xl text-blue-600">
               DPodM, MRCPod
             </strong>
           </h1>
 
           <p
-            className="mt-3 sm:text-l/relaxed text-center"
+            className="mt-0 lg:mt-3 sm:text-l/relaxed text-center"
             aria-label="HCPC (State) Registered"
           >
             <strong>HCPC (State) Registered</strong>
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           {/* Info Box */}
-          <div className="bg-white text-left shadow-lg rounded-lg p-6 mt-8 max-w-md bg-opacity-35">
+          <div className="bg-white text-left shadow-lg rounded-lg p-4 xl:p-6 mt-8 max-w-md bg-opacity-35">
             <div className="flex items-center mt-2 text-gray-700 font-semibold">
               <img
                 src="feet3.svg"
