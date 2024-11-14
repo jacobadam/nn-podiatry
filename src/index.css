@@ -15,13 +15,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.bg-home-mobile {
-  background-image: url("../public/homepage-image-mobile.webp");
-}
-
-@media (min-width: 768px) {
-  .bg-home-desktop {
-    background-image: url("../public/homepage-image.webp");
-  }
-}
