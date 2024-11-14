@@ -25,7 +25,7 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row relative mx-auto max-w-screen-l pr-4 xl:pr-12 2xl:pr-24 pl-6 2xl:pl-16 min-h-screen lg:justify-between">
         {/* Slogan */}
         <blockquote className="lg:flex-grow lg:flex lg:items-end lg:mb-24 2xl:mb-32">
-          <p className="font-semibold text-xl lg:text:2xl xl:text-4xl leading-relaxed text-gray-600 text-center font-sans bg-blue-600 bg-opacity-5 p-4 2xl:p-12 shadow-lg">
+          <p className="font-semibold text-xl xl:text-4xl leading-relaxed text-gray-600 text-center font-sans bg-blue-600 bg-opacity-5 p-4 2xl:p-12 shadow-lg">
             Compassionate Foot Care <br /> From an Experienced, <br />
             Trusted Professional
           </p>
