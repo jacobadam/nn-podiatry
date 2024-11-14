@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <section
-      className="relative bg-home-mobile lg:bg-home-desktop bg-cover bg-center bg-no-repeat h-screen"
+      className="relative bg-[url('../public/homepage-image-mobile.webp')] lg:bg-[url('../public/homepage-image.webp')] bg-cover bg-center bg-no-repeat min-h-screen"
       aria-labelledby="home-title"
     >
       <div className="absolute inset-0 bg-white/50"></div>
@@ -25,15 +25,15 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row relative mx-auto max-w-screen-l px-12 lg:items-start lg:justify-between min-h-full">
         {/* Slogan */}
         <blockquote class="p-4 my-4">
-          <p class="lg:absolute lg:bottom-40 lg:left-8 font-extrabold text-2xl md:text-4xl leading-relaxed text-gray-900 text-center font-serif">
+          <p class="lg:absolute lg:bottom-0 lg:left-8 font-semibold text-2xl md:text-4xl leading-relaxed text-grey-900 text-center font-monserrat bg-blue-600 bg-opacity-5 p-4 shadow-lg">
             Compassionate Foot Care <br /> from an Experienced, <br />
             Trusted Professional
           </p>
         </blockquote>
 
         {/* Info Section */}
-        <div className="flex flex-col text-center items-center mt-28 lg:mt-32">
-          <h1 id="home-title" className="font-bold text-5xl lg:text-3xl">
+        <div className="flex flex-col text-center items-center mt-16 mb-16 lg:mt-32">
+          <h1 id="home-title" className="font-bold text-5xl">
             Neil Nevitt
             <strong className="block text-center font-semibold text-2xl text-blue-600">
               DPodM, MRCPod
@@ -59,19 +59,16 @@ export default function Home() {
           </div>
 
           {/* Info Box */}
-          <div className="bg-white text-left shadow-lg rounded-lg p-6 mt-8 max-w-md">
-            <div className="flex items-start mt-2 text-gray-700">
+          <div className="bg-white text-left shadow-lg rounded-lg p-6 mt-8 max-w-md bg-opacity-35">
+            <div className="flex items-center mt-2 text-gray-700 font-semibold">
               <img
                 src="feet3.svg"
                 alt="Bullet Point"
                 className="w-9 h-9 mr-2"
               />
-              <p>
-                Treatment for diabetic or ageing feeterrucae, corns, and
-                calluses
-              </p>
+              <p>Treatment for diabetic or ageing feet</p>
             </div>
-            <div className="flex items-start mt-2 text-gray-700">
+            <div className="flex items-center mt-2 text-gray-700 font-semibold">
               <img
                 src="feet3.svg"
                 alt="Bullet Point"
@@ -79,7 +76,7 @@ export default function Home() {
               />
               <p>Nail surgery for problematic toenails</p>
             </div>
-            <div className="flex items-start mt-2 text-gray-700">
+            <div className="flex items-center mt-2 text-gray-700 font-semibold">
               <img
                 src="feet3.svg"
                 alt="Bullet Point"
@@ -87,7 +84,7 @@ export default function Home() {
               />
               <p>Musculoskeletal assessment and treatment</p>
             </div>
-            <div className="flex items-start mt-2 text-gray-700">
+            <div className="flex items-center mt-2 text-gray-700 font-semibold">
               <img
                 src="feet3.svg"
                 alt="Bullet Point"
