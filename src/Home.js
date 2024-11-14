@@ -41,14 +41,14 @@ export default function Home() {
           </h1>
 
           <p
-            className="mt-0 lg:mt-3 sm:text-l/relaxed text-center"
+            className="mt-0 lg:mt-2 sm:text-l/relaxed text-center"
             aria-label="HCPC (State) Registered"
           >
             <strong>HCPC (State) Registered</strong>
           </p>
 
           {/* Get In Touch Button */}
-          <div className="mt-4 flex flex-col items-center lg:items-end">
+          <div className="mt-2 flex flex-col items-center lg:items-end">
             <Link
               to="/contact"
               className="block w-full rounded bg-blue-600 px-12 py-3 text-sm font-bold text-white shadow hover:bg-blue-700 focus:outline-none focus:ring sm:w-auto"
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           {/* Info Box */}
-          <div className="bg-white text-left shadow-lg rounded-lg p-4 xl:p-6 mt-8 max-w-md bg-opacity-35">
+          <div className="bg-white text-left shadow-lg rounded-lg p-4 xl:p-6 mt-8 lg:mt-4 max-w-md bg-opacity-35">
             <div className="flex items-center mt-2 text-gray-700 font-semibold">
               <img
                 src="feet3.svg"
