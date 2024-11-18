@@ -16,9 +16,19 @@ export default function Home() {
 
   return (
     <section
-      className="relative bg-[url('../public/homepage-image-mobile.webp')] lg:bg-[url('../public/homepage-image.webp')] bg-cover bg-center bg-no-repeat min-h-screen"
+      className="relative bg-cover bg-center bg-no-repeat min-h-screen"
       aria-labelledby="home-title"
     >
+      {/* Hero Image */}
+      <img
+        srcSet="/homepage-image-mobile.webp 640w, /homepage-image.webp 1024w"
+        sizes="(max-width: 1024px) 100vw, 1024px"
+        src="/homepage-image-mobile.webp"
+        alt="Hero background"
+        className="absolute inset-0 w-full h-full object-cover hero-img"
+        loading="eager"
+        decoding="async"
+      />
       <div className="absolute inset-0 bg-white/50"></div>
 
       {/* Container */}
