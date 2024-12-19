@@ -36,7 +36,7 @@ export default function Home() {
         {/* Slogan */}
         <blockquote className="lg:flex-grow lg:flex lg:items-end lg:mb-24 2xl:mb-32">
           <p className="font-semibold text-xl xl:text-4xl leading-relaxed text-gray-600 text-center font-sans bg-blue-600 bg-opacity-5 p-4 2xl:p-12 shadow-lg">
-            Compassionate Foot Care <br /> From an Experienced, <br />
+            First Class Foot Care <br /> From an Experienced, <br />
             Trusted Professional
           </p>
         </blockquote>
@@ -46,7 +46,7 @@ export default function Home() {
           <h1 id="home-title" className="font-bold text-4xl lg:text-5xl">
             Neil Nevitt
             <strong className="block text-center font-semibold text-xl lg:text-2xl text-blue-600">
-              DPodM, MRCPod
+              DPodM, MRCoP
             </strong>
           </h1>
 
