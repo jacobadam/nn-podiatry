@@ -43,7 +43,7 @@ export default function About() {
                 private work in my Liverpool Practice.
               </p>
               <p className="font-bold">
-                MCRPod - Member of the Royal College of Podiatry - membership
+                MRCoP - Member of the Royal College of Podiatry - membership
                 number - 07675
               </p>
               <br />
