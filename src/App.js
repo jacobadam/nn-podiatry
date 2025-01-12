@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { Suspense, lazy } from "react";
 import Nav from "./Nav.js";
-import RedirectHandler from "./RedirectHandler.js";
 import { BounceLoader } from "react-spinners";
 
 const Home = lazy(() => import("./Home.js"));
@@ -15,7 +14,6 @@ const NotFound = lazy(() => import("./NotFound.js"));
 function App() {
   return (
     <BrowserRouter>
-      <RedirectHandler />
       <Nav>
         <Suspense fallback={<BounceLoader color={"#ffffff"} size={50} />}>
           <Routes>
