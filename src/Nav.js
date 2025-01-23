@@ -10,7 +10,7 @@ import ScrollToTop from "./ScrollToTop";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
-  { name: "About Me", href: "/about", current: false },
+  { name: "About", href: "/about", current: false },
   { name: "Services", href: "/services", current: false },
   { name: "Podiatry", href: "/podiatry", current: false },
   { name: "Contact", href: "/contact", current: false },
