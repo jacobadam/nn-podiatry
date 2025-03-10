@@ -73,7 +73,7 @@ export default function Podiatry() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Go to check the HCPC register page"
-                className="text-rose-600 hover:underline"
+                className="text-rose-600 font-semibold hover:underline"
               >
                 Click here for more information
               </a>
@@ -89,7 +89,7 @@ export default function Podiatry() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Go to check if your podiatrist is a Royal College member page"
-                className="text-rose-600 hover:underline"
+                className="text-rose-600 font-semibold hover:underline"
               >
                 Click here for more information
               </a>

@@ -50,7 +50,7 @@ export default function Contact() {
           </p>
           {messageSent && (
             <p
-              className="text-center text-rose-600 text-xl font-bold"
+              className="text-center text-red-600 text-xl font-bold"
               aria-live="polite"
             >
               Message sent!
@@ -132,7 +132,7 @@ export default function Contact() {
             <button
               type="submit"
               value="Send"
-              className="block w-full rounded bg-rose-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+              className="block w-full rounded bg-blue-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
               aria-label="Send message"
             >
               Send message
