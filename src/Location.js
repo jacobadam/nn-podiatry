@@ -1,5 +1,6 @@
 import React from "react";
 import { APIProvider, Map, AdvancedMarker } from "@vis.gl/react-google-maps";
+import { Helmet } from "react-helmet-async";
 
 const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
 const MAP_ID = process.env.REACT_APP_MAP_ID;
@@ -19,6 +20,14 @@ export default function Location() {
       className="bg-gray-100 min-h-screen"
       aria-labelledby="location-heading"
     >
+      <Helmet>
+        <title>Neil Nevitt - Location</title>
+        <link rel="canonical" href="https://www.neilnevitt.com/location" />
+        <meta
+          name="description"
+          content="Find Neil Nevitt's podiatry practice location in Liverpool, including address, contact details, and directions."
+        />
+      </Helmet>
       <div className="w-full h-40">
         <img
           src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}

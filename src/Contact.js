@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { Helmet } from "react-helmet-async";
 
 export default function Contact() {
   const form = useRef();
@@ -28,6 +29,14 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+      <Helmet>
+        <title>Neil Nevitt - Contact</title>
+        <link rel="canonical" href="https://www.neilnevitt.com/contact" />
+        <meta
+          name="description"
+          content="Contact Neil Nevitt for appointments and inquiries. Morning, afternoon, and evening appointments available."
+        />
+      </Helmet>
       <div className="w-full h-40">
         <img
           src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}

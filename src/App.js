@@ -8,22 +8,25 @@ import Services from "./Services.js";
 import Location from "./Location.js";
 import Podiatry from "./Podiatry.js";
 import NotFound from "./NotFound.js";
+import { HelmetProvider } from "react-helmet-async";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Nav>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
-          <Route path="podiatry" element={<Podiatry />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="location" element={<Location />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Nav>
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter>
+        <Nav>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="services" element={<Services />} />
+            <Route path="podiatry" element={<Podiatry />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="location" element={<Location />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Nav>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }
 

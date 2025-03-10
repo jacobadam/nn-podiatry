@@ -1,8 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 export default function Podiatry() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+      <Helmet>
+        <title>Neil Nevitt - Podiatry Services</title>
+        <link rel="canonical" href="https://www.neilnevitt.com/podiatry" />
+        <meta
+          name="description"
+          content="Detailed information about podiatry."
+        />
+      </Helmet>
       <div className="w-full h-40">
         <img
           src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}

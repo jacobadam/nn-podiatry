@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   useEffect(() => {
@@ -19,6 +20,14 @@ export default function Home() {
       className="relative bg-cover bg-center bg-no-repeat min-h-screen"
       aria-labelledby="home-title"
     >
+      <Helmet>
+        <title>Neil Nevitt - Experienced Podiatrist</title>
+        <link rel="canonical" href="https://www.neilnevitt.com/" />
+        <meta
+          name="description"
+          content="Neil Nevitt - Experienced Liverpool based podiatrist with a comprehensive background in foot health. HCPC (State) Registered. DPodM, MRCoP."
+        />
+      </Helmet>
       {/* Hero Image */}
       <img
         srcSet="/homepage-image-mobile.webp 640w, /homepage-image.webp 1024w"
@@ -35,7 +44,7 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row relative mx-auto max-w-screen-l pr-4 xl:pr-12 2xl:pr-24 pl-6 2xl:pl-16 min-h-screen lg:justify-between">
         {/* Slogan */}
         <blockquote className="lg:flex-grow lg:flex lg:items-end lg:mb-24 2xl:mb-32">
-          <p className="font-semibold text-xl xl:text-4xl leading-relaxed text-gray-600 text-center font-sans bg-blue-600 bg-opacity-5 p-4 2xl:p-12 shadow-lg">
+          <p className="font-semibold text-sm md:text-xl xl:text-4xl leading-relaxed text-gray-600 text-center font-sans bg-blue-600 bg-opacity-5 p-4 2xl:p-12 shadow-lg">
             First Class Foot Care <br /> From an Experienced, <br />
             Trusted Professional
           </p>

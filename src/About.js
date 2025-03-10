@@ -1,8 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 export default function About() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+      <Helmet>
+        <title>Neil Nevitt - About</title>
+        <link rel="canonical" href="https://www.neilnevitt.com/about" />
+        <meta
+          name="description"
+          content="Learn about Neil Nevitt's qualifications and experience as a Liverpool-based podiatrist."
+        />
+      </Helmet>
       <div className="w-full h-40">
         <img
           src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
