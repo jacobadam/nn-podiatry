@@ -12,14 +12,6 @@ export default function About() {
           content="Learn about Neil Nevitt's qualifications and experience as a Liverpool-based podiatrist."
         />
       </Helmet>
-      <div className="w-full h-40">
-        <img
-          src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
-          alt="Banner"
-          className="w-full h-full object-cover"
-          aria-label="Banner Image"
-        />
-      </div>
 
       <div className="flex items-center justify-center py-8 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-12">
         <section

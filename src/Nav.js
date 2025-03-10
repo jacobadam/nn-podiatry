@@ -5,7 +5,7 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 
 const navigation = [
@@ -19,11 +19,13 @@ const navigation = [
 
 export default function Nav(props) {
   const buttonRef = useRef(null);
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
 
   return (
     <>
       <ScrollToTop />
-      <Disclosure as="nav" className="bg-gray-800 fixed top-0 w-full z-10">
+      <Disclosure as="nav" className="bg-gray-800 w-full z-10">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -100,7 +102,18 @@ export default function Nav(props) {
           </>
         )}
       </Disclosure>
-      <div className="pt-16 bg-white min-h-screen">{props.children}</div>
+      {!isHomePage && (
+        <div className="w-full h-40">
+          <img
+            src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
+            alt="Banner"
+            className="w-full h-full object-cover"
+            aria-label="Banner Image"
+          />
+        </div>
+      )}
+
+      <div className="bg-white min-h-screen">{props.children}</div>
     </>
   );
 }

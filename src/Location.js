@@ -28,14 +28,6 @@ export default function Location() {
           content="Find Neil Nevitt's podiatry practice location in Liverpool, including address, contact details, and directions."
         />
       </Helmet>
-      <div className="w-full h-40">
-        <img
-          src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
-          alt="Banner"
-          className="w-full h-full object-cover"
-          aria-label="Banner Image"
-        />
-      </div>
       <div className="max-w-7xl mx-auto p-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
           <h2

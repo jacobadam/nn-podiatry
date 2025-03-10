@@ -12,14 +12,6 @@ export default function Conditions() {
           content="Explore the range of podiatry services offered by Neil Nevitt, including diabetic foot care, nail surgery, and more."
         />
       </Helmet>
-      <div className="w-full h-40">
-        <img
-          src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
-          alt="Banner"
-          className="w-full h-full object-cover"
-          aria-label="Banner Image"
-        />
-      </div>
       <div className="bg-slate-100 mx-auto py-2 px-4 dark:bg-gray-800">
         <div className="text-center text-2xl py-2 font-medium tracking-wider dark:text-white">
           <h2 className="mb-8 text-3xl tracking-tight font-bold text-gray-900 dark:text-white">

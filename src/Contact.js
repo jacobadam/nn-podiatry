@@ -37,14 +37,6 @@ export default function Contact() {
           content="Contact Neil Nevitt for appointments and inquiries. Morning, afternoon, and evening appointments available."
         />
       </Helmet>
-      <div className="w-full h-40">
-        <img
-          src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
-          alt="Banner"
-          className="w-full h-full object-cover"
-          aria-label="Banner Image"
-        />
-      </div>
       <section aria-labelledby="contact-title">
         <div className="max-w-screen-md mx-auto p-4 sm:px-6 lg:px-8">
           <h2

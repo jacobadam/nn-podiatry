@@ -12,14 +12,6 @@ export default function Podiatry() {
           content="Detailed information about podiatry."
         />
       </Helmet>
-      <div className="w-full h-40">
-        <img
-          src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
-          alt="Banner"
-          className="w-full h-full object-cover"
-          aria-label="Banner Image"
-        />
-      </div>
       <section className="py-4 antialiased dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
