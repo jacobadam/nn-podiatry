@@ -57,4 +57,4 @@ For any inquiries related to the development of this project, feel free to reach
 
 ## Live Site
 
-The website is available at: **[neilnevitt.com](https://neilnevitt.com/)**
+The website is available at: **[neilnevitt.com](https://www.neilnevitt.com/)**
