@@ -28,7 +28,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div className="min-h-screen">
       <Helmet>
         <title>Neil Nevitt - Contact</title>
         <link rel="canonical" href="https://www.neilnevitt.com/contact" />
@@ -40,12 +40,12 @@ export default function Contact() {
       <section aria-labelledby="contact-title">
         <div className="max-w-screen-md mx-auto p-4 sm:px-6 lg:px-8">
           <h2
-            className="mb-4 text-3xl tracking-tight font-bold text-center text-gray-900 dark:text-white"
+            className="mb-4 text-3xl tracking-tight font-bold text-center text-gray-900"
             id="contact-title"
           >
             Contact Me
           </h2>
-          <p className="mb-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+          <p className="mb-8 font-light text-center text-gray-500 sm:text-xl">
             Morning, Afternoon, and Evening Appointments Available
           </p>
           {messageSent && (
@@ -65,7 +65,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="user_name"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 Your Name
               </label>
@@ -73,7 +73,7 @@ export default function Contact() {
                 id="user_name"
                 type="text"
                 name="user_name"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
                 required
                 aria-required="true"
                 aria-describedby="user_name-description"
@@ -82,7 +82,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="user_email"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 Your Email
               </label>
@@ -90,7 +90,7 @@ export default function Contact() {
                 id="user_email"
                 type="email"
                 name="user_email"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
                 required
                 aria-required="true"
                 aria-describedby="user_email-description"
@@ -99,7 +99,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="user_number"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 Phone Number
               </label>
@@ -107,7 +107,7 @@ export default function Contact() {
                 id="user_number"
                 type="tel"
                 name="user_number"
-                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
                 required
                 aria-required="true"
                 aria-describedby="user_number-description"
@@ -116,7 +116,7 @@ export default function Contact() {
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 Your Message
               </label>
@@ -124,7 +124,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 rows="6"
-                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-600 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
                 aria-required="true"
                 aria-describedby="message-description"
               ></textarea>
@@ -132,7 +132,7 @@ export default function Contact() {
             <button
               type="submit"
               value="Send"
-              className="block w-full rounded bg-blue-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+              className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               aria-label="Send message"
             >
               Send message
