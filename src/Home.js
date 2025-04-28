@@ -45,8 +45,7 @@ export default function Home() {
 
       {/* Info Cards */}
       <section className="w-full bg-white flex-grow md:flex md:items-center">
-        <div className="max-w-screen-lg mx-auto w-full grid grid-cols-1 md:grid-cols-3 md:p-6">
-          {/* Our Team */}
+        <div className="max-w-screen-lg mx-auto w-full grid grid-cols-1 md:grid-cols-3 md:p-6 text-center lg:text-left">
           <div className="bg-cyan-400 text-white p-6 md:p-10 flex flex-col justify-center">
             <h5 className="text-xl font-semibold mb-4">Our Team</h5>
             <p className="text-sm leading-relaxed">
@@ -56,7 +55,6 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Treatments */}
           <div className="bg-cyan-500 text-white p-6 md:p-10 flex flex-col justify-center">
             <h5 className="text-xl font-semibold mb-4">Treatments</h5>
             <p className="text-sm leading-relaxed">
@@ -66,17 +64,16 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Opening Hours */}
-          <div className="bg-blue-700 text-white p-6 md:p-10 flex flex-col justify-center">
+          <div className="bg-blue-700 text-white p-6 lg:p-10 flex flex-col justify-center">
             <h5 className="text-xl font-semibold mb-4">Contact</h5>
             <ul className="space-y-4">
-              <li className="flex flex-col sm:flex-row sm:justify-between border-b border-white/30 pb-2">
+              <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
                 <span className="font-semibold">Phone:</span>
-                <p className="sm:text-right font-semibold">0151 722 3840</p>
+                <p className="lg:text-right font-semibold">0151 722 3840</p>
               </li>
-              <li className="flex flex-col sm:flex-row sm:justify-between border-b border-white/30 pb-2">
+              <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
                 <span className="font-semibold">Email:</span>
-                <p className="sm:text-right break-words font-semibold">
+                <p className="lg:text-right break-words font-semibold">
                   neilnevitt@gmail.com
                 </p>
               </li>
