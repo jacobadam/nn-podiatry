@@ -20,17 +20,20 @@ export default function Conditions() {
         </div>
         <div className="w-fit gap-6 mx-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
           {/* card item */}
-          <div
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96"
+          <a
+            href="https://rcpod.org.uk/patient-information/diabetes"
+            target="_blank"
+            rel="noreferrer"
+            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="diabetic-feet-title"
             aria-describedby="diabetic-feet-description"
+            aria-label="Learn more about Diabetic Feet"
           >
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/diabetic-feet.webp`}
                 alt="Diabetic Feet"
-                aria-label="Diabetic Feet Image"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold text-center">
@@ -43,29 +46,26 @@ export default function Conditions() {
               </p>
             </div>
             <div className="p-2 text-center">
-              <a
-                href="https://rcpod.org.uk/patient-information/diabetes"
-                target="_blank"
-                rel="noreferrer"
-                className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                aria-label="Learn more about Diabetic Feet"
-              >
+              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                 Learn more
-              </a>
+              </span>
             </div>
-          </div>
+          </a>
           {/* card item */}
-          <div
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96"
+          <a
+            href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
+            target="_blank"
+            rel="noreferrer"
+            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="ageing-feet-title"
             aria-describedby="ageing-feet-description"
+            aria-label="Learn more about Ageing Feet"
           >
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/ageing-feet.webp`}
                 alt="Ageing Feet"
-                aria-label="Ageing Feet Image"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold text-center">
@@ -79,29 +79,26 @@ export default function Conditions() {
               </p>
             </div>
             <div className="p-2 text-center">
-              <a
-                href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
-                target="_blank"
-                rel="noreferrer"
-                className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                aria-label="Learn more about Ageing Feet"
-              >
+              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                 Learn more
-              </a>
+              </span>
             </div>
-          </div>
+          </a>
           {/* card item */}
-          <div
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96"
+          <a
+            href="https://rcpod.org.uk/common-foot-problems/ingrowing-toenail"
+            target="_blank"
+            rel="noreferrer"
+            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="ingrowing-toenail-title"
             aria-describedby="ingrowing-toenail-description"
+            aria-label="Learn more about Ingrowing Toenail"
           >
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/ingrowing-toenail.webp`}
                 alt="Ingrowing Toenail"
-                aria-label="Ingrowing Toenail Image"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold text-center">
@@ -114,29 +111,26 @@ export default function Conditions() {
               </p>
             </div>
             <div className="p-2 text-center">
-              <a
-                href="https://rcpod.org.uk/common-foot-problems/ingrowing-toenail"
-                target="_blank"
-                rel="noreferrer"
-                className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                aria-label="Learn more about Ingrowing Toenail"
-              >
+              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                 Learn more
-              </a>
+              </span>
             </div>
-          </div>
+          </a>
           {/* card item */}
-          <div
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96"
+          <a
+            href="https://rcpod.org.uk/patient-information/arthritis/arthritis-leaflets/toenail-surgery-for-people-with-a-rheumatic-condition"
+            target="_blank"
+            rel="noreferrer"
+            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="nail-surgery-title"
             aria-describedby="nail-surgery-description"
+            aria-label="Learn more about Nail Surgery"
           >
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/nail-surgery.webp`}
                 alt="Nail Surgery"
-                aria-label="Nail Surgery Image"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold text-center">
@@ -149,29 +143,26 @@ export default function Conditions() {
               </p>
             </div>
             <div className="p-2 text-center">
-              <a
-                href="https://rcpod.org.uk/patient-information/arthritis/arthritis-leaflets/toenail-surgery-for-people-with-a-rheumatic-condition"
-                target="_blank"
-                rel="noreferrer"
-                className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                aria-label="Learn more about Nail Surgery"
-              >
+              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                 Learn more
-              </a>
+              </span>
             </div>
-          </div>
+          </a>
           {/* card item */}
-          <div
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96"
+          <a
+            href="https://rcpod.org.uk/common-foot-problems/corns-callus"
+            target="_blank"
+            rel="noreferrer"
+            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="corn-callus-title"
             aria-describedby="corn-callus-description"
+            aria-label="Learn more about Corns and Calluses"
           >
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/corn-callus.webp`}
                 alt="Corn Callus"
-                aria-label="Corn Callus Image"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold text-center">
@@ -185,29 +176,26 @@ export default function Conditions() {
               </p>
             </div>
             <div className="p-2 text-center">
-              <a
-                href="https://rcpod.org.uk/common-foot-problems/corns-callus"
-                target="_blank"
-                rel="noreferrer"
-                className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                aria-label="Learn more about Corns and Calluses"
-              >
+              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                 Learn more
-              </a>
+              </span>
             </div>
-          </div>
+          </a>
           {/* card item */}
-          <div
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96"
+          <a
+            href="https://rcpod.org.uk/common-foot-problems/verrucae"
+            target="_blank"
+            rel="noreferrer"
+            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="verrucae-title"
             aria-describedby="verrucae-description"
+            aria-label="Learn more about Verrucae"
           >
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/verrucae.webp`}
                 alt="Verrucae"
-                aria-label="Verrucae Image"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold text-center">
@@ -221,29 +209,26 @@ export default function Conditions() {
               </p>
             </div>
             <div className="p-2 text-center">
-              <a
-                href="https://rcpod.org.uk/common-foot-problems/verrucae"
-                target="_blank"
-                rel="noreferrer"
-                className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                aria-label="Learn more about Verrucae"
-              >
+              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                 Learn more
-              </a>
+              </span>
             </div>
-          </div>
+          </a>
           {/* card item */}
-          <div
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96"
+          <a
+            href="https://rcpod.org.uk/common-foot-problems/flat-foot-management"
+            target="_blank"
+            rel="noreferrer"
+            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="musculoskeletal-title"
             aria-describedby="musculoskeletal-description"
+            aria-label="Learn more about Musculoskeletal Podiatry"
           >
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
                 src={`${process.env.PUBLIC_URL}/msk-podiatry.webp`}
                 alt="Musculoskeletal"
-                aria-label="Musculoskeletal Image"
               />
             </div>
             <div className="px-4 py-2 text-2xl font-semibold text-center">
@@ -257,17 +242,11 @@ export default function Conditions() {
               </p>
             </div>
             <div className="p-2 text-center">
-              <a
-                href="https://rcpod.org.uk/common-foot-problems/flat-foot-management"
-                target="_blank"
-                rel="noreferrer"
-                className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                aria-label="Learn more about Musculoskeletal Podiatry"
-              >
+              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                 Learn more
-              </a>
+              </span>
             </div>
-          </div>
+          </a>
           {/* card item */}
         </div>
       </div>
