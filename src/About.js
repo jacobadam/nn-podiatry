@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div className="min-h-screen bg-white">
       <Helmet>
         <title>Neil Nevitt - About</title>
         <link rel="canonical" href="https://www.neilnevitt.com/about" />
@@ -15,18 +15,18 @@ export default function About() {
 
       <div className="flex items-center justify-center py-8 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-12">
         <section
-          className="bg-white dark:bg-gray-800 py-8 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 mx-auto max-w-full sm:max-w-lg md:max-w-xl lg:max-w-4xl xl:max-w-4xl rounded-lg shadow-lg lg:grid lg:grid-cols-2 lg:gap-8"
+          className="bg-gray-50 py-8 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 mx-auto max-w-full sm:max-w-lg md:max-w-xl lg:max-w-4xl xl:max-w-4xl rounded-lg shadow-lg lg:grid lg:grid-cols-2 lg:gap-8"
           aria-labelledby="about-title"
         >
           <div className="text-center lg:text-left lg:pt-2">
             <h2
               id="about-title"
-              className="mb-4 text-3xl tracking-tight font-bold text-gray-900 dark:text-white"
+              className="mb-4 text-3xl tracking-tight font-bold text-gray-900"
             >
               Neil Nevitt
             </h2>
             <div
-              className="font-light text-gray-500 dark:text-gray-400 sm:text-lg"
+              className="font-light text-gray-500 sm:text-lg"
               aria-label="Biography of Neil Nevitt"
             >
               <p className="mb-4">
