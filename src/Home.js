@@ -17,10 +17,10 @@ export default function Home() {
         ></div>
 
         {/* Blue Overlay */}
-        <div className="absolute inset-0 bg-cyan-700 opacity-40"></div>
+        <div className="absolute inset-0 bg-cyan-600 opacity-60 lg:opacity-40"></div>
 
         {/* Hero Content */}
-        <div className="relative z-10 flex flex-col items-center text-center md:items-end md:text-right px-6 md:px-16 lg:px-24 ml-auto">
+        <div className="relative z-10 flex flex-col items-center text-center md:items-end md:text-right px-6 md:px-16 lg:px-24">
           <h2 className="tracking-wide text-white text-sm font-semibold md:text-base mb-4">
             Over 40 Years of Experience in Podiatry
           </h2>
@@ -36,7 +36,7 @@ export default function Home() {
 
           <Link
             to="/contact"
-            className="mt-4 bg-white text-cyan-700 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
+            className="mt-4 bg-white text-cyan-600 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:bg-white hover:ring-2 hover:ring-cyan-600 hover:ring-offset-2 pointer-events-auto"
             aria-label="Get in touch with Neil Nevitt"
           >
             Get In Touch
