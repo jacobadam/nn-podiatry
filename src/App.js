@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import Nav from "./Nav.js";
+import Footer from "./Footer.js";
 import Home from "./Home.js";
 import About from "./About.js";
 import Contact from "./Contact.js";
@@ -14,17 +15,21 @@ function App() {
   return (
     <HelmetProvider>
       <BrowserRouter>
-        <Nav>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="services" element={<Services />} />
-            <Route path="podiatry" element={<Podiatry />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="location" element={<Location />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Nav>
+        <div className="flex flex-col min-h-screen bg-white">
+          <Nav />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/podiatry" element={<Podiatry />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/location" element={<Location />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
       </BrowserRouter>
     </HelmetProvider>
   );
