@@ -70,6 +70,7 @@ export default function Nav() {
             </a>
             <button
               onClick={toggleMobileMenu}
+              aria-label="hamburger menu"
               className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             >
               <svg
