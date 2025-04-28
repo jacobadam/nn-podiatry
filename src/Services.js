@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 
 export default function Conditions() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Helmet>
         <title>Neil Nevitt - Services</title>
         <link rel="canonical" href="https://www.neilnevitt.com/services" />
@@ -13,7 +13,7 @@ export default function Conditions() {
         />
       </Helmet>
       <div className="mx-auto py-2 px-4 mb-8">
-        <div className="text-center text-2xl py-2 font-medium tracking-wider">
+        <div className="text-xl py-2 font-medium text-center tracking-wider">
           <h2 className="mb-8 text-3xl tracking-tight font-bold text-gray-900">
             Our Services
           </h2>
@@ -36,10 +36,10 @@ export default function Conditions() {
                 alt="Diabetic Feet"
               />
             </div>
-            <div className="px-4 py-2 text-2xl font-semibold text-center">
+            <div className="px-4 py-2 text-xl font-semibold text-center">
               <h2 id="diabetic-feet-title">Diabetic Feet</h2>
             </div>
-            <div className="flex justify-between px-4 py-2 text-l font-medium">
+            <div className="flex justify-between px-4 py-2 text-base font-medium text-center">
               <p id="diabetic-feet-description">
                 Diabetes causes high blood glucose, damaging nerves and blood
                 vessels, affecting circulation to legs, feet, and tissues.
@@ -68,10 +68,10 @@ export default function Conditions() {
                 alt="Ageing Feet"
               />
             </div>
-            <div className="px-4 py-2 text-2xl font-semibold text-center">
+            <div className="px-4 py-2 text-xl font-semibold text-center">
               <h2 id="ageing-feet-title">Ageing Feet</h2>
             </div>
-            <div className="flex justify-between px-4 py-2 text-l font-medium">
+            <div className="flex justify-between px-4 py-2 text-base font-medium text-center">
               <p id="ageing-feet-description">
                 Ageing causes foot issues due to joint wear, thinner skin, and
                 dryness; routine care prevents serious problems and aids
@@ -101,10 +101,10 @@ export default function Conditions() {
                 alt="Ingrowing Toenail"
               />
             </div>
-            <div className="px-4 py-2 text-2xl font-semibold text-center">
+            <div className="px-4 py-2 text-xl font-semibold text-center">
               <h2 id="ingrowing-toenail-title">Ingrowing Toenail </h2>
             </div>
-            <div className="flex justify-between px-4 py-2 text-l font-medium">
+            <div className="flex justify-between px-4 py-2 text-base font-medium text-center">
               <p id="ingrowing-toenail-description">
                 An ingrown toenail pierces flesh, causing pain, inflammation, or
                 infection. It often affects the big toe but can affect others.
@@ -133,10 +133,10 @@ export default function Conditions() {
                 alt="Nail Surgery"
               />
             </div>
-            <div className="px-4 py-2 text-2xl font-semibold text-center">
+            <div className="px-4 py-2 text-xl font-semibold text-center">
               <h2 id="nail-surgery-title">Nail Surgery</h2>
             </div>
-            <div className="flex justify-between px-4 py-2 text-l font-medium">
+            <div className="flex justify-between px-4 py-2 text-base font-medium text-center">
               <p id="nail-surgery-description">
                 Nail surgery performed by qualified professionals removes
                 problematic toenails and may use chemicals to prevent regrowth.
@@ -165,10 +165,10 @@ export default function Conditions() {
                 alt="Corn Callus"
               />
             </div>
-            <div className="px-4 py-2 text-2xl font-semibold text-center">
+            <div className="px-4 py-2 text-xl font-semibold text-center">
               <h2 id="corn-callus-title">Corns and Calluses</h2>
             </div>
-            <div className="flex justify-between px-4 py-2 text-l font-medium">
+            <div className="flex justify-between px-4 py-2 text-base font-medium text-center">
               <p id="corn-callus-description">
                 Walking and standing pressure can cause corns and calluses.
                 Calluses are areas of hard skin on the sole; corns form over
@@ -198,10 +198,10 @@ export default function Conditions() {
                 alt="Verrucae"
               />
             </div>
-            <div className="px-4 py-2 text-2xl font-semibold text-center">
+            <div className="px-4 py-2 text-xl font-semibold text-center">
               <h2 id="verrucae-title">Verrucae</h2>
             </div>
-            <div className="flex justify-between px-4 py-2 text-l font-medium">
+            <div className="flex justify-between px-4 py-2 text-base font-medium text-center">
               <p id="verrucae-description">
                 Verrucae are plantar warts caused by the contagious Human
                 Papilloma Virus. They can occur on the soles of the feet or
@@ -231,10 +231,10 @@ export default function Conditions() {
                 alt="Musculoskeletal"
               />
             </div>
-            <div className="px-4 py-2 text-2xl font-semibold text-center">
+            <div className="px-4 py-2 text-xl font-semibold text-center">
               <h2 id="musculoskeletal-title">Musculoskeletal</h2>
             </div>
-            <div className="flex justify-between px-4 py-2 text-l font-medium">
+            <div className="flex justify-between px-4 py-2 text-base font-medium text-center">
               <p id="musculoskeletal-description">
                 MSK (Musculoskeletal) is a specialist area of podiatry which
                 concentrates on functional and structural issues of the foot and
