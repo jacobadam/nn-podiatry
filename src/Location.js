@@ -16,10 +16,7 @@ const center = {
 
 export default function Location() {
   return (
-    <section
-      className="bg-gray-100 min-h-screen"
-      aria-labelledby="location-heading"
-    >
+    <section className="min-h-screen" aria-labelledby="location-heading">
       <Helmet>
         <title>Neil Nevitt - Location</title>
         <link rel="canonical" href="https://www.neilnevitt.com/location" />
