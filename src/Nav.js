@@ -27,7 +27,7 @@ export default function Nav() {
   return (
     <>
       <nav className="py-5 lg:fixed w-full bg-white transition-all z-50 sticky top-0 duration-500">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="hidden lg:flex items-center justify-between w-full">
             <div className="flex-1 flex items-center">
               <a href="/">
