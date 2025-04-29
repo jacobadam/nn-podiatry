@@ -45,27 +45,29 @@ export default function Home() {
       </section>
 
       {/* Info Cards */}
-      <section className="w-full bg-white flex-grow md:flex md:items-stretch">
+      <section className="w-full bg-white flex items-center flex-grow">
         <div className="max-w-screen-lg mx-auto w-full grid grid-cols-1 md:grid-cols-3 md:p-6 text-center lg:text-left">
-          <div className="bg-cyan-500 text-white p-6 md:p-10 flex flex-col">
-            <h2 className="text-xl font-semibold mb-4">Trusted Expertise</h2>
-            <p className="text-sm leading-relaxed flex-grow">
+          <div className="bg-cyan-500 text-white p-6 md:p-10 flex flex-col md:min-h-[320px]">
+            <h2 className="text-xl font-semibold mb-4 md:mt-8">
+              Trusted Expertise
+            </h2>
+            <p className="text-base leading-relaxed flex-grow">
               First-class foot care and health support from an experienced,
               reliable professional.
             </p>
           </div>
 
-          <div className="bg-cyan-600 text-white p-6 md:p-10 flex flex-col">
-            <h2 className="text-xl font-semibold mb-4">Treatments</h2>
-            <p className="text-sm leading-relaxed flex-grow">
+          <div className="bg-cyan-600 text-white p-6 md:p-10 flex flex-col md:min-h-[320px]">
+            <h2 className="text-xl font-semibold mb-4 md:mt-8">Treatments</h2>
+            <p className="text-base leading-relaxed flex-grow">
               Our podiatric treatments offer personalized solutions to relieve
               discomfort, correct problems, and keep your feet in optimal
               condition.
             </p>
           </div>
 
-          <div className="bg-blue-800 text-white p-6 md:p-10 flex flex-col">
-            <h2 className="text-xl font-semibold mb-4">Contact</h2>
+          <div className="bg-blue-800 text-white p-6 md:p-10 flex flex-col md:min-h-[320px]">
+            <h2 className="text-xl font-semibold mb-4 md:mt-8">Contact</h2>
             <ul className="space-y-4 flex-grow">
               <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
                 <span className="font-normal">Phone:</span>
