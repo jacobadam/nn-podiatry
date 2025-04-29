@@ -78,6 +78,10 @@ export default function Home() {
                 <p className="lg:text-right font-normal">0151 722 3840</p>
               </li>
               <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
+                <span className="font-normal">Mobile:</span>
+                <p className="lg:text-right font-normal">07946 582 000</p>
+              </li>
+              <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
                 <span className="font-normal">Email:</span>
                 <p className="lg:text-right break-words font-normal">
                   neilnev@hotmail.com
