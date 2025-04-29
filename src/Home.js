@@ -8,13 +8,17 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative flex flex-col justify-center w-full min-h-[60vh] lg:mt-16">
         {/* Background Image */}
-        <div
+        <figure
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: "url('/homepage-image.webp')",
           }}
-          aria-label="A podiatrist providing foot care to a patient."
-        ></div>
+          aria-labelledby="hero-image-description"
+        >
+          <figcaption id="hero-image-description" className="sr-only">
+            A podiatrist providing foot care to a patient.
+          </figcaption>
+        </figure>
 
         {/* Blue Overlay */}
         <div className="absolute inset-0 bg-cyan-600 opacity-60 lg:opacity-40"></div>
