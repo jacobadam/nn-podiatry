@@ -57,10 +57,7 @@ export default function Nav() {
             </div>
 
             <div className="flex-1 hidden lg:flex flex-col items-end text-right text-sm leading-tight">
-              <span className="font-semibold text-cyan-600">
-                0151 722 3840/
-              </span>
-              <span className="font-semibold text-cyan-600">07595 373 585</span>
+              <span className="font-semibold text-cyan-600">0151 722 3840</span>
             </div>
           </div>
 
