@@ -9,12 +9,6 @@ const Footer = () => {
         <div className="mb-4 md:mb-0 text-sm">
           &copy; {currentYear} Neil Nevitt. All rights reserved. <br />
         </div>
-        <div className="text-sm font-semibold text-white">
-          Contact:{" "}
-          <span className="font-base text-white">
-            0151 722 3840 / 07946 582000
-          </span>
-        </div>
       </div>
     </footer>
   );
