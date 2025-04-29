@@ -61,7 +61,7 @@ export default function Home() {
 
       {/* Info Cards */}
       <section className="w-full bg-white flex items-center flex-grow">
-        <div className="max-w-screen-lg mx-auto w-full grid grid-cols-1 md:grid-cols-3 lg:pt-6 text-center lg:text-left">
+        <div className="max-w-screen-lg mx-auto w-full grid grid-cols-1 md:grid-cols-3 lg:pt-6 2xl:py-6 text-center lg:text-left">
           <div className="bg-cyan-500 text-white p-6 md:p-10 flex flex-col lg:min-h-[320px]">
             <h2 className="text-xl font-semibold mb-4 md:mt-8">
               Trusted Expertise
