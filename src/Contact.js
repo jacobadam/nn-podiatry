@@ -39,12 +39,12 @@ export default function Contact() {
       </Helmet>
       <section aria-labelledby="contact-title">
         <div className="max-w-screen-md mx-auto p-4 sm:px-6 lg:px-8">
-          <h2
+          <h1
             className="mb-4 text-3xl tracking-tight font-bold text-center text-gray-900"
             id="contact-title"
           >
             Contact Me
-          </h2>
+          </h1>
           <p className="mb-8 font-light text-center text-gray-500 sm:text-xl">
             Morning, Afternoon, and Evening Appointments Available
           </p>

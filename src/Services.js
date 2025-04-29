@@ -14,9 +14,9 @@ export default function Conditions() {
       </Helmet>
       <div className="mx-auto py-2 px-4 mb-8">
         <div className="text-xl py-2 font-medium text-center tracking-wider">
-          <h2 className="mb-8 text-3xl tracking-tight font-bold text-gray-900">
+          <h1 className="mb-8 text-3xl tracking-tight font-bold text-gray-900">
             Our Services
-          </h2>
+          </h1>
         </div>
         <div className="w-fit gap-6 mx-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
           {/* card item */}

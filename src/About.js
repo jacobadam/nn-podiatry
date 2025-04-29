@@ -19,12 +19,12 @@ export default function About() {
           aria-labelledby="about-title"
         >
           <div className="text-center lg:text-left lg:pt-2">
-            <h2
+            <h1
               id="about-title"
               className="mb-4 text-3xl tracking-tight font-bold text-gray-900"
             >
               Neil Nevitt
-            </h2>
+            </h1>
             <div
               className="font-light text-gray-500 sm:text-lg"
               aria-label="Biography of Neil Nevitt"
