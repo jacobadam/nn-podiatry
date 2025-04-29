@@ -1,11 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import "./index.css";
 
 export default function Home() {
   return (
     <section className="flex flex-col w-full min-h-screen">
       {/* Hero Section */}
+      <Helmet>
+        <title>
+          Neil Nevitt | HCPC Registered Podiatrist in Liverpool – DPodM, MRCoP
+        </title>
+        <link rel="canonical" href="https://www.neilnevitt.com/" />
+        <meta
+          name="description"
+          content="Neil Nevitt - Experienced Liverpool based podiatrist with a comprehensive background in foot health. HCPC (State) Registered. DPodM, MRCoP."
+        />
+      </Helmet>
       <section className="relative flex flex-col justify-center w-full min-h-[60vh] lg:mt-16">
         {/* Background Image */}
         <figure
