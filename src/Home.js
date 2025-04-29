@@ -48,11 +48,10 @@ export default function Home() {
       <section className="w-full bg-white flex-grow md:flex md:items-stretch">
         <div className="max-w-screen-lg mx-auto w-full grid grid-cols-1 md:grid-cols-3 md:p-6 text-center lg:text-left">
           <div className="bg-cyan-500 text-white p-6 md:p-10 flex flex-col">
-            <h2 className="text-xl font-semibold mb-4">Our Team</h2>
+            <h2 className="text-xl font-semibold mb-4">Trusted Expertise</h2>
             <p className="text-sm leading-relaxed flex-grow">
-              Our team of highly qualified podiatrists is dedicated to caring
-              for the health and comfort of your feet. Your well-being is our
-              priority.
+              First-class foot care and health support from an experienced,
+              reliable professional.
             </p>
           </div>
 
@@ -75,7 +74,7 @@ export default function Home() {
               <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
                 <span className="font-normal">Email:</span>
                 <p className="lg:text-right break-words font-normal">
-                  neilnevitt@gmail.com
+                  neilnev@hotmail.com
                 </p>
               </li>
             </ul>
