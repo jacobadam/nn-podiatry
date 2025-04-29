@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Lato", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
+        sans: ["'Roboto'", "sans-serif"],
+        montserrat: ["'Roboto'", "sans-serif"],
       },
     },
   },
