@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, Link, useLocation } from "react-router-dom";
 
 const navigation = [
   { label: "Home", to: "/" },
@@ -26,20 +26,23 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="py-5 lg:fixed w-full bg-white transition-all z-50 sticky top-0 duration-500">
+      <nav
+        className="py-5 lg:fixed w-full bg-white transition-all z-50 sticky top-0 duration-500"
+        aria-label="Primary navigation"
+      >
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="hidden lg:flex items-center justify-between w-full">
             <div className="flex-1 flex items-center">
-              <a href="/">
+              <Link to="/" aria-label="Neil Nevitt Podiatry Home">
                 <img
                   src="/favicon.ico"
-                  alt="Your Logo"
+                  alt="Neil Nevitt Podiatry Logo"
                   className="h-8 w-auto"
                 />
-              </a>
+              </Link>
             </div>
 
-            <div className="flex gap-8">
+            <div className="flex gap-8" role="menubar">
               {navigation.map((item) => (
                 <NavLink
                   key={item.to}
@@ -50,6 +53,7 @@ export default function Nav() {
                       ? "text-cyan-600 font-semibold"
                       : "text-black hover:text-cyan-600 transition font-medium"
                   }
+                  role="menuitem"
                 >
                   {item.label}
                 </NavLink>
@@ -62,45 +66,62 @@ export default function Nav() {
           </div>
 
           <div className="flex lg:hidden justify-between items-center">
-            <a href="/">
-              <img src="/favicon.ico" alt="Your Logo" className="h-8 w-auto" />
-            </a>
+            <Link to="/" aria-label="Neil Nevitt Podiatry Home">
+              <img
+                src="/favicon.ico"
+                alt="Neil Nevitt Podiatry Logo"
+                className="h-8 w-auto"
+              />
+            </Link>
             <button
               onClick={toggleMobileMenu}
-              aria-label="hamburger menu"
-              className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+              aria-label="Toggle navigation menu"
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
+              className="text-black focus:outline-none focus:ring-2 focus:ring-cyan-600"
             >
               <svg
                 className="w-6 h-6"
-                aria-hidden="true"
-                fill="currentColor"
-                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fillRule="evenodd"
-                  d="M3 5h14a1 1 0 100-2H3a1 1 0 100 2zm14 4H3a1 1 0 000 2h14a1 1 0 000-2zm0 6H3a1 1 0 000 2h14a1 1 0 000-2z"
-                  clipRule="evenodd"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d={
+                    isMobileMenuOpen
+                      ? "M6 18L18 6M6 6l12 12"
+                      : "M4 6h16M4 12h16M4 18h16"
+                  }
                 />
               </svg>
             </button>
           </div>
 
+          {/* Mobile Menu */}
           {isMobileMenuOpen && (
-            <div className="lg:hidden mt-4 flex flex-col gap-4">
-              {navigation.map((item) => (
-                <NavLink
-                  key={item.to}
-                  to={item.to}
-                  onClick={scrollToTop}
-                  className={({ isActive }) =>
-                    isActive
-                      ? "text-cyan-600 font-semibold"
-                      : "text-black hover:text-cyan-600 transition font-medium"
-                  }
-                >
-                  {item.label}
-                </NavLink>
-              ))}
+            <div id="mobile-menu" className="mt-4 lg:hidden" role="menu">
+              <ul className="space-y-4">
+                {navigation.map((item) => (
+                  <li key={item.to}>
+                    <NavLink
+                      to={item.to}
+                      onClick={scrollToTop}
+                      className={({ isActive }) =>
+                        isActive
+                          ? "text-cyan-600 font-semibold block"
+                          : "text-black hover:text-cyan-600 transition font-medium block"
+                      }
+                      role="menuitem"
+                    >
+                      {item.label}
+                    </NavLink>
+                  </li>
+                ))}
+              </ul>
             </div>
           )}
         </div>
