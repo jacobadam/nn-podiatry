@@ -106,7 +106,7 @@ export default function Nav() {
         </div>
       </nav>
       {!isHomePage && (
-        <div className="w-full h-60 lg:mt-20">
+        <div className="w-full h-60 lg:mt-16">
           <img
             src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
             alt="Banner"
