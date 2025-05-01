@@ -27,7 +27,6 @@ export default function Home() {
           width="1200"
           height="800"
           fetchPriority="high"
-          decoding="async"
         />
 
         {/* Blue Overlay */}
