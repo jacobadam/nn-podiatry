@@ -23,7 +23,7 @@ export default function Podiatry() {
             <section className="py-4 antialiased">
               <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
-                  <div className="mx-auto max-w-2xl space-y-6 text-left">
+                  <div className="mx-auto max-w-2xl space-y-6 text-center sm:text-left">
                     <p
                       className="text-base font-normal text-gray-500"
                       id="podiatry-intro"
