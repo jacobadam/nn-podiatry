@@ -24,6 +24,7 @@ export default function Home() {
           <source
             srcSet="/homepage-image-mobile.webp"
             media="(max-width: 768px)"
+            type="image/webp"
           />
           <img
             src="/homepage-image-optimized.webp"
@@ -32,6 +33,8 @@ export default function Home() {
             height="1414"
             className="absolute inset-0 w-full h-full object-cover"
             fetchPriority="high"
+            loading="eager"
+            decoding="async"
           />
         </picture>
 
