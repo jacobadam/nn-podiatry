@@ -21,11 +21,11 @@ export default function Home() {
         {/* Background Image */}
 
         <img
-          src="/homepage-image.webp"
+          src="/homepage-image-optimized.webp"
           alt="A podiatrist providing foot care to a patient."
           className="absolute inset-0 w-full h-full object-cover"
-          width="1200"
-          height="800"
+          width="2124"
+          height="1414"
           fetchPriority="high"
         />
 
