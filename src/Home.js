@@ -21,7 +21,7 @@ export default function Home() {
         {/* Background Image */}
 
         <img
-          src="/homepage-image-optimized.webp"
+          src="/homepage-image-mobile.webp"
           alt="A podiatrist providing foot care to a patient."
           className="absolute inset-0 w-full h-full object-cover"
           fetchPriority="high"
