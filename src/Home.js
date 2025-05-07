@@ -24,10 +24,6 @@ export default function Home() {
           src="/homepage-image-mobile.webp"
           alt="A podiatrist providing foot care to a patient."
           className="absolute inset-0 w-full h-full object-cover"
-          fetchPriority="high"
-          loading="eager"
-          srcset="/homepage-image-mobile.webp 768w, /homepage-image-optimized.webp 2124w"
-          sizes="(max-width: 768px) 100vw, 100vw"
         />
 
         {/* Blue Overlay */}
