@@ -23,12 +23,11 @@ export default function Home() {
         <img
           src="/homepage-image-optimized.webp"
           alt="A podiatrist providing foot care to a patient."
-          width="2124"
-          height="1414"
           className="absolute inset-0 w-full h-full object-cover"
           fetchPriority="high"
           loading="eager"
-          srcSet="homepage-image-mobile.webp 768w"
+          srcset="/homepage-image-mobile.webp 768w, /homepage-image-optimized.webp 2124w"
+          sizes="(max-width: 768px) 100vw, 100vw"
         />
 
         {/* Blue Overlay */}
