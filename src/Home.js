@@ -20,14 +20,20 @@ export default function Home() {
       <section className="relative flex flex-col justify-center w-full min-h-[60vh] lg:mt-16">
         {/* Background Image */}
 
-        <img
-          src="/homepage-image-optimized.webp"
-          alt="A podiatrist providing foot care to a patient."
-          className="absolute inset-0 w-full h-full object-cover"
-          width="2124"
-          height="1414"
-          fetchPriority="high"
-        />
+        <picture>
+          <source
+            srcSet="/homepage-image-mobile.webp"
+            media="(max-width: 768px)"
+          />
+          <img
+            src="/homepage-image-optimized.webp"
+            alt="A podiatrist providing foot care to a patient."
+            width="2124"
+            height="1414"
+            className="absolute inset-0 w-full h-full object-cover"
+            fetchPriority="high"
+          />
+        </picture>
 
         {/* Blue Overlay */}
         <div className="absolute inset-0 bg-cyan-600 opacity-60 lg:opacity-40"></div>
