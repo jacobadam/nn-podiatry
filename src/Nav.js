@@ -71,7 +71,8 @@ export default function Nav() {
               <img
                 src="/favicon.ico"
                 alt="Neil Nevitt Podiatry Logo"
-                className="h-8 w-auto"
+                width="32"
+                height="32"
               />
             </Link>
             <button
