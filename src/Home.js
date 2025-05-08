@@ -16,6 +16,13 @@ export default function Home() {
           name="description"
           content="Neil Nevitt - Experienced Liverpool based podiatrist with a comprehensive background in foot health. HCPC (State) Registered. DPodM, MRCoP."
         />
+        <link
+          rel="preload"
+          href="/homepage-image-mobile.webp"
+          as="image"
+          fetchpriority="high"
+          media="(max-width: 768px)"
+        />
       </Helmet>
       <section className="relative flex flex-col justify-center w-full min-h-[60vh] lg:mt-16">
         {/* Background Image */}
