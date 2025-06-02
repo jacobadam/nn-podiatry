@@ -5,6 +5,11 @@ import { Helmet } from "react-helmet-async";
 export default function Contact() {
   const form = useRef();
   const [messageSent, setMessageSent] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,6 +26,7 @@ export default function Contact() {
         },
         (error) => {
           console.log("Failed...", error.text);
+          setErrorMessage("Something went wrong. Please try again.");
         }
       );
 
@@ -50,10 +56,19 @@ export default function Contact() {
           </p>
           {messageSent && (
             <p
-              className="text-center text-red-600 text-xl font-bold"
+              className="text-center text-cyan-600 text-xl font-bold"
               aria-live="polite"
             >
               Message sent!
+            </p>
+          )}
+          {errorMessage && (
+            <p
+              className="text-center text-red-600 text-xl font-bold py-4"
+              aria-live="assertive"
+              role="alert"
+            >
+              {errorMessage}
             </p>
           )}
           <form
@@ -134,6 +149,7 @@ export default function Contact() {
               value="Send"
               className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               aria-label="Send message"
+              onClick={scrollToTop}
             >
               Send message
             </button>
