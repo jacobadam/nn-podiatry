@@ -1,36 +1,41 @@
 import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 import { Helmet } from "react-helmet-async";
 
 export default function Contact() {
   const form = useRef();
   const [messageSent, setMessageSent] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm("contact_service", "contact_form", form.current, {
-        publicKey: "6WTU0L3Ur4LEzEGob",
-      })
-      .then(
-        () => {
-          console.log("Success!");
-          setMessageSent(true);
-          setTimeout(() => setMessageSent(false), 5000);
-        },
-        (error) => {
-          console.log("Failed...", error.text);
-          setErrorMessage("Something went wrong. Please try again.");
-        }
-      );
+    const formData = new FormData(form.current);
+    formData.append("access_key", "c2198003-fca5-4918-ada8-577176be7de1");
 
-    e.target.reset();
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setMessageSent(true);
+        setErrorMessage("");
+        form.current.reset();
+        setTimeout(() => setMessageSent(false), 5000);
+      } else {
+        setErrorMessage("Submission failed. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setErrorMessage("Something went wrong. Please try again.");
+    }
   };
 
   return (
@@ -77,6 +82,18 @@ export default function Contact() {
             onSubmit={sendEmail}
             aria-labelledby="contact-form"
           >
+            <input
+              type="hidden"
+              name="access_key"
+              value="e0b76f39-f500-47ef-beed-7d756bb7f914"
+            />
+            <input type="hidden" name="from_name" value="Neil Nevitt Website" />
+            <input
+              type="hidden"
+              name="subject"
+              value="New Contact Form Submission"
+            />
+
             <div>
               <label
                 htmlFor="user_name"
@@ -87,11 +104,9 @@ export default function Contact() {
               <input
                 id="user_name"
                 type="text"
-                name="user_name"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                name="name"
                 required
-                aria-required="true"
-                aria-describedby="user_name-description"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
               />
             </div>
             <div>
@@ -104,11 +119,9 @@ export default function Contact() {
               <input
                 id="user_email"
                 type="email"
-                name="user_email"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                name="email"
                 required
-                aria-required="true"
-                aria-describedby="user_email-description"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
               />
             </div>
             <div>
@@ -121,11 +134,9 @@ export default function Contact() {
               <input
                 id="user_number"
                 type="tel"
-                name="user_number"
-                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                name="phone"
                 required
-                aria-required="true"
-                aria-describedby="user_number-description"
+                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
               />
             </div>
             <div className="sm:col-span-2">
@@ -139,16 +150,13 @@ export default function Contact() {
                 id="message"
                 name="message"
                 rows="6"
+                required
                 className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
-                aria-required="true"
-                aria-describedby="message-description"
               ></textarea>
             </div>
             <button
               type="submit"
-              value="Send"
               className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              aria-label="Send message"
               onClick={scrollToTop}
             >
               Send message
