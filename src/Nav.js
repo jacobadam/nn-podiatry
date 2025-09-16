@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
 
 const navigation = [
@@ -11,18 +11,18 @@ const navigation = [
 ];
 
 export default function Nav() {
-  const location = useLocation();
-  const isHomePage = location.pathname === "/";
+  const { pathname } = useLocation();
+  const isHomePage = pathname === "/";
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const scrollToTop = () => {
+  useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
     setIsMobileMenuOpen(false);
-  };
+  }, [pathname]);
 
   return (
     <>
@@ -48,7 +48,6 @@ export default function Nav() {
                 <NavLink
                   key={item.to}
                   to={item.to}
-                  onClick={scrollToTop}
                   className={({ isActive }) =>
                     isActive
                       ? "text-cyan-600 font-semibold"
@@ -111,7 +110,6 @@ export default function Nav() {
                   <li key={item.to}>
                     <NavLink
                       to={item.to}
-                      onClick={scrollToTop}
                       className={({ isActive }) =>
                         isActive
                           ? "text-cyan-600 font-semibold block"
