@@ -82,11 +82,6 @@ export default function Contact() {
             onSubmit={sendEmail}
             aria-labelledby="contact-form"
           >
-            <input
-              type="hidden"
-              name="access_key"
-              value="e0b76f39-f500-47ef-beed-7d756bb7f914"
-            />
             <input type="hidden" name="from_name" value="Neil Nevitt Website" />
             <input
               type="hidden"
