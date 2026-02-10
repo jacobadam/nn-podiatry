@@ -7,16 +7,18 @@ const Footer = () => {
     <footer className="bg-blue-950 text-gray-300 py-6" role="contentinfo">
       <div className="md:pl-8">
         <p className="text-center md:text-left text-sm">
-          &copy; {currentYear}{" "}
+          &copy; {currentYear} Neil Nevitt. All rights reserved.
+        </p>
+        <p className="text-center md:text-left text-xs mt-1">
+          Designed by{" "}
           <a
             href="https://www.greenhousewebdesigns.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-white transition-colors"
+            className="hover:text-white transition-colors underline underline-offset-2"
           >
             Greenhouse Web Designs
           </a>
-          . All rights reserved.
         </p>
       </div>
     </footer>
