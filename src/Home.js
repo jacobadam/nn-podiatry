@@ -6,7 +6,6 @@ import "./index.css";
 export default function Home() {
   return (
     <section className="flex flex-col w-full min-h-screen">
-      {/* Hero Section */}
       <Helmet>
         <title>
           Neil Nevitt | HCPC Registered Podiatrist in Liverpool – DPodM, MRCoP
@@ -25,20 +24,15 @@ export default function Home() {
         />
       </Helmet>
       <section className="relative flex flex-col justify-center w-full min-h-[60vh] lg:mt-16">
-        {/* Background Image */}
-
         <img
           src="/homepage-image-mobile.webp"
           alt="A podiatrist providing foot care to a patient."
           className="absolute inset-0 w-full h-full object-cover"
           srcSet="/homepage-image-mobile.webp 768w, /homepage-image-optimized.webp 2124w"
           sizes="(max-width: 768px) 100vw, 100vw"
+          fetchpriority="high"
         />
-
-        {/* Blue Overlay */}
         <div className="absolute inset-0 bg-cyan-600 opacity-60 lg:opacity-40"></div>
-
-        {/* Hero Content */}
         <div className="relative z-10 flex flex-col items-center text-center md:items-end md:text-right px-6 md:px-16 lg:px-24">
           <h2 className="tracking-wide text-white text-sm font-semibold md:text-base mb-4">
             Over 40 Years of Experience in Podiatry
@@ -63,7 +57,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Info Cards */}
       <section className="w-full bg-white flex items-center flex-grow">
         <div className="max-w-screen-lg mx-auto w-full grid grid-cols-1 md:grid-cols-3 lg:pt-6 2xl:py-6 text-center lg:text-left">
           <div className="bg-cyan-500 text-white p-6 md:p-10 flex flex-col lg:min-h-[320px]">
