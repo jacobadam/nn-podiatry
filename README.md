@@ -42,7 +42,7 @@ npm run build
 This project is built with the following key dependencies:
 
 - **React 19** – Core frontend library
-- **Vite v7** – Frontend tooling and development server
+- **Vite 7** – Frontend tooling and development server
 - **React Router 6** – For handling page navigation
 - **Tailwind CSS** – Utility-first CSS framework
 - **Google Maps API** – Integrated for location display
