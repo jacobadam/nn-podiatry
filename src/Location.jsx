@@ -1,8 +1,8 @@
 import { APIProvider, Map, AdvancedMarker } from "@vis.gl/react-google-maps";
 import { Helmet } from "react-helmet-async";
 
-const API_KEY = import.meta.env.REACT_APP_GOOGLE_API_KEY;
-const MAP_ID = import.meta.env.REACT_APP_MAP_ID;
+const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+const MAP_ID = import.meta.env.VITE_MAP_ID;
 
 const mapContainerStyle = {
   width: "100%",
