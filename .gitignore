@@ -24,3 +24,4 @@ yarn-error.log*
 
 #google API key
 .env
+.env.production
