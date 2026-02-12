@@ -59,18 +59,18 @@ export default function About() {
           >
             <img
               className="w-48 md:w-60 lg:w-68 xl:w-68 rounded-lg"
-              src={`${process.env.PUBLIC_URL}/neilnevitt.webp`}
+              src={"/neilnevitt.webp"}
               alt="Portrait of Neil Nevitt, a professional podiatrist"
             />
             <div className="flex mt-8 lg:mt-2 lg:pt-16">
               <img
                 className="w-32 sm:pr-4 pr-6"
-                src={`${process.env.PUBLIC_URL}/rcp.webp`}
+                src={"/rcp.webp"}
                 alt="Royal College of Podiatry logo, representing Neil Nevitt's professional membership"
               />
               <img
                 className="w-32 sm:pr-4 pl-6"
-                src={`${process.env.PUBLIC_URL}/hcpc.webp`}
+                src={"/hcpc.webp"}
                 alt="Health Care Professional Council logo, representing Neil Nevitt's professional registration"
               />
             </div>

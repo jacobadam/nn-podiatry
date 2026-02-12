@@ -23,7 +23,7 @@ export default function Conditions() {
             href="https://rcpod.org.uk/patient-information/diabetes"
             target="_blank"
             rel="noreferrer"
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
+            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="diabetic-feet-title"
             aria-describedby="diabetic-feet-description"
             aria-label="Learn more about Diabetic Feet"
@@ -31,7 +31,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src={`${process.env.PUBLIC_URL}/diabetic-feet.webp`}
+                src={"/diabetic-feet.webp"}
                 alt="Diabetic Feet"
               />
             </div>
@@ -55,7 +55,7 @@ export default function Conditions() {
             href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
             target="_blank"
             rel="noreferrer"
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
+            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="ageing-feet-title"
             aria-describedby="ageing-feet-description"
             aria-label="Learn more about Ageing Feet"
@@ -63,7 +63,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src={`${process.env.PUBLIC_URL}/ageing-feet.webp`}
+                src={"/ageing-feet.webp"}
                 alt="Ageing Feet"
               />
             </div>
@@ -88,7 +88,7 @@ export default function Conditions() {
             href="https://rcpod.org.uk/common-foot-problems/ingrowing-toenail"
             target="_blank"
             rel="noreferrer"
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
+            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="ingrowing-toenail-title"
             aria-describedby="ingrowing-toenail-description"
             aria-label="Learn more about Ingrowing Toenail"
@@ -96,7 +96,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src={`${process.env.PUBLIC_URL}/ingrowing-toenail.webp`}
+                src={"/ingrowing-toenail.webp"}
                 alt="Ingrowing Toenail"
               />
             </div>
@@ -120,7 +120,7 @@ export default function Conditions() {
             href="https://rcpod.org.uk/patient-information/arthritis/arthritis-leaflets/toenail-surgery-for-people-with-a-rheumatic-condition"
             target="_blank"
             rel="noreferrer"
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
+            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="nail-surgery-title"
             aria-describedby="nail-surgery-description"
             aria-label="Learn more about Nail Surgery"
@@ -128,7 +128,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src={`${process.env.PUBLIC_URL}/nail-surgery.webp`}
+                src={"/nail-surgery.webp"}
                 alt="Nail Surgery"
               />
             </div>
@@ -152,7 +152,7 @@ export default function Conditions() {
             href="https://rcpod.org.uk/common-foot-problems/corns-callus"
             target="_blank"
             rel="noreferrer"
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
+            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="corn-callus-title"
             aria-describedby="corn-callus-description"
             aria-label="Learn more about Corns and Calluses"
@@ -160,7 +160,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src={`${process.env.PUBLIC_URL}/corn-callus.webp`}
+                src={"/corn-callus.webp"}
                 alt="Corn Callus"
               />
             </div>
@@ -185,7 +185,7 @@ export default function Conditions() {
             href="https://rcpod.org.uk/common-foot-problems/verrucae"
             target="_blank"
             rel="noreferrer"
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
+            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="verrucae-title"
             aria-describedby="verrucae-description"
             aria-label="Learn more about Verrucae"
@@ -193,7 +193,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src={`${process.env.PUBLIC_URL}/verrucae.webp`}
+                src={"/verrucae.webp"}
                 alt="Verrucae"
               />
             </div>
@@ -218,7 +218,7 @@ export default function Conditions() {
             href="https://rcpod.org.uk/common-foot-problems/flat-foot-management"
             target="_blank"
             rel="noreferrer"
-            className="w-64 shadow-md rounded bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
+            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
             aria-labelledby="musculoskeletal-title"
             aria-describedby="musculoskeletal-description"
             aria-label="Learn more about Musculoskeletal Podiatry"
@@ -226,7 +226,7 @@ export default function Conditions() {
             <div className="p-2">
               <img
                 className="rounded-lg h-32 w-full"
-                src={`${process.env.PUBLIC_URL}/msk-podiatry.webp`}
+                src={"/msk-podiatry.webp"}
                 alt="Musculoskeletal"
               />
             </div>

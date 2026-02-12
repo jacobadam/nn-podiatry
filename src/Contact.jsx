@@ -49,7 +49,7 @@ export default function Contact() {
         />
       </Helmet>
       <section aria-labelledby="contact-title">
-        <div className="max-w-screen-md mx-auto p-4 sm:px-6 lg:px-8">
+        <div className="max-w-(--breakpoint-md) mx-auto p-4 sm:px-6 lg:px-8">
           <h1
             className="mb-4 text-3xl tracking-tight font-bold text-center text-gray-900"
             id="contact-title"
@@ -101,7 +101,7 @@ export default function Contact() {
                 type="text"
                 name="name"
                 required
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                className="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
               />
             </div>
             <div>
@@ -116,7 +116,7 @@ export default function Contact() {
                 type="email"
                 name="email"
                 required
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                className="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
               />
             </div>
             <div>
@@ -131,7 +131,7 @@ export default function Contact() {
                 type="tel"
                 name="phone"
                 required
-                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-xs focus:ring-primary-500 focus:border-primary-500"
               />
             </div>
             <div className="sm:col-span-2">
@@ -146,7 +146,7 @@ export default function Contact() {
                 name="message"
                 rows="6"
                 required
-                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
+                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-xs border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
               ></textarea>
             </div>
             <button

@@ -101,7 +101,7 @@ export default function Location() {
                 <div className="border-t border-gray-200 px-6 py-4">
                   <img
                     className="w-48 sm:w-64 md:w-60 lg:w-68 xl:w-68 rounded-lg"
-                    src={`${process.env.PUBLIC_URL}/accepted-cards.webp`}
+                    src={"/accepted-cards.webp"}
                     alt="Accepted cards"
                     aria-label="Accepted payment cards"
                   />

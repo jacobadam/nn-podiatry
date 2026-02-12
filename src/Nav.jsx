@@ -79,7 +79,7 @@ export default function Nav() {
               aria-label="Toggle navigation menu"
               aria-expanded={isMobileMenuOpen}
               aria-controls="mobile-menu"
-              className="text-black focus:outline-none focus:ring-2 focus:ring-cyan-600"
+              className="text-black focus:outline-hidden focus:ring-2 focus:ring-cyan-600"
             >
               <svg
                 className="w-6 h-6"
@@ -102,7 +102,6 @@ export default function Nav() {
             </button>
           </div>
 
-          {/* Mobile Menu */}
           {isMobileMenuOpen && (
             <div id="mobile-menu" className="mt-4 lg:hidden" role="menu">
               <ul className="space-y-4">
@@ -129,7 +128,7 @@ export default function Nav() {
       {!isHomePage && (
         <div className="w-full h-60 lg:mt-16">
           <img
-            src={`${process.env.PUBLIC_URL}/pebble-footprint.webp`}
+            src={"/pebble-footprint.webp"}
             alt="Banner"
             className="w-full h-full object-cover"
           />

@@ -29,7 +29,7 @@ export default function NotFound() {
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link
               to="/"
-              className="rounded-md bg-rose-700 px-12 py-3 text-sm font-medium text-white shadow-sm hover:bg-rose-600 focus:outline-none focus:ring active:bg-rose-500"
+              className="rounded-md bg-rose-700 px-12 py-3 text-sm font-medium text-white shadow-xs hover:bg-rose-600 focus:outline-hidden focus:ring-3 active:bg-rose-500"
               aria-label="Go back home"
             >
               Go back home
