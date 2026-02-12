@@ -4,7 +4,7 @@ This is a healthcare website for a small podiatry business. The website features
 
 ## Features
 
-- Built with **React 19**, **Vite v7**and styled using **Tailwind CSS**
+- Built with **React 19**, **Vite v7** and styled using **Tailwind CSS**
 - Integrated **Google Maps API** for location display
 - Uses **Web3Forms** for the contact form functionality
 
@@ -41,8 +41,9 @@ npm run build
 
 This project is built with the following key dependencies:
 
-- **React** – Core frontend library
-- **React Router** – For handling page navigation
+- **React 19** – Core frontend library
+- **Vite v7** – Frontend tooling and development server
+- **React Router 6** – For handling page navigation
 - **Tailwind CSS** – Utility-first CSS framework
 - **Google Maps API** – Integrated for location display
 - **Web3Forms** – Handles contact form submissions
