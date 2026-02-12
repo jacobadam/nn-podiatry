@@ -18,7 +18,6 @@ export default function Conditions() {
           </h1>
         </div>
         <div className="w-fit gap-6 mx-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
-          {/* card item */}
           <a
             href="https://rcpod.org.uk/patient-information/diabetes"
             target="_blank"
@@ -50,7 +49,6 @@ export default function Conditions() {
               </span>
             </div>
           </a>
-          {/* card item */}
           <a
             href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
             target="_blank"
@@ -83,7 +81,6 @@ export default function Conditions() {
               </span>
             </div>
           </a>
-          {/* card item */}
           <a
             href="https://rcpod.org.uk/common-foot-problems/ingrowing-toenail"
             target="_blank"
@@ -115,7 +112,6 @@ export default function Conditions() {
               </span>
             </div>
           </a>
-          {/* card item */}
           <a
             href="https://rcpod.org.uk/patient-information/arthritis/arthritis-leaflets/toenail-surgery-for-people-with-a-rheumatic-condition"
             target="_blank"
@@ -147,7 +143,6 @@ export default function Conditions() {
               </span>
             </div>
           </a>
-          {/* card item */}
           <a
             href="https://rcpod.org.uk/common-foot-problems/corns-callus"
             target="_blank"
@@ -180,7 +175,6 @@ export default function Conditions() {
               </span>
             </div>
           </a>
-          {/* card item */}
           <a
             href="https://rcpod.org.uk/common-foot-problems/verrucae"
             target="_blank"
@@ -213,7 +207,6 @@ export default function Conditions() {
               </span>
             </div>
           </a>
-          {/* card item */}
           <a
             href="https://rcpod.org.uk/common-foot-problems/flat-foot-management"
             target="_blank"
@@ -246,7 +239,6 @@ export default function Conditions() {
               </span>
             </div>
           </a>
-          {/* card item */}
         </div>
       </div>
     </div>
