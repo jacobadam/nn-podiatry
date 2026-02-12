@@ -33,11 +33,11 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-cyan-600 opacity-60 lg:opacity-40"></div>
         <div className="relative z-10 flex flex-col items-center text-center md:items-end md:text-right px-6 md:px-16 lg:px-24">
-          <h2 className="tracking-wide text-white text-sm font-semibold md:text-base mb-4">
+          <h2 className="tracking-wide text-white text-sm font-semibold md:text-base mb-2">
             Over 40 Years of Experience in Podiatry
           </h2>
 
-          <h1 className="text-white font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-4">
+          <h1 className="text-white font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-2">
             Neil Nevitt
           </h1>
 
@@ -57,7 +57,7 @@ export default function Home() {
       </section>
 
       <section className="w-full bg-white flex items-center grow">
-        <div className="max-w-(--breakpoint-lg) mx-auto w-full grid grid-cols-1 md:grid-cols-3 lg:pt-6 2xl:py-6 text-center lg:text-left">
+        <div className="max-w-5xl mx-auto w-full grid grid-cols-1 md:grid-cols-3 lg:pt-6 2xl:py-6 text-center lg:text-left">
           <div className="bg-cyan-500 text-white p-6 md:p-10 flex flex-col lg:min-h-80">
             <h2 className="text-xl font-semibold mb-4 md:mt-8">
               Trusted Expertise
@@ -77,7 +77,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-blue-800 text-white p-6 md:p-10 flex flex-col md:min-h-[320px]">
+          <div className="bg-blue-800 text-white p-6 md:p-10 flex flex-col md:min-h-80">
             <h2 className="text-xl font-semibold mb-4 md:mt-8">Contact</h2>
             <ul className="space-y-4 grow">
               <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
