@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -10,7 +10,10 @@
       rel="preload"
       href="styles.css"
       as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
     />
 
     <noscript>
@@ -51,34 +54,18 @@
           "@type": "Organization",
           "name": "Neil Nevitt Podiatry"
         },
-        "image": "https://www.neilnevitt.com/favicon.ico"
+        "image": "/favicon.ico"
       }
     </script>
 
     <!-- Favicon and Icons -->
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://www.neilnevitt.com/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="https://www.neilnevitt.com/favicon.svg"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="https://www.neilnevitt.com/apple-touch-icon.png"
-    />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Open Graph Meta Tags -->
-    <meta
-      property="og:image"
-      content="https://www.neilnevitt.com/favicon.ico"
-    />
+    <meta property="og:image" content="/favicon.ico" />
     <meta property="og:title" content="Neil Nevitt - Experienced Podiatrist" />
     <meta
       property="og:description"
@@ -87,10 +74,7 @@
     <meta property="og:url" content="https://www.neilnevitt.com/" />
 
     <!-- Twitter Card Meta Tags -->
-    <meta
-      name="twitter:image"
-      content="https://www.neilnevitt.com/favicon.ico"
-    />
+    <meta name="twitter:image" content="/favicon.ico" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <title>
@@ -100,5 +84,6 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
   </body>
 </html>

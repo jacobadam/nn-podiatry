@@ -1,14 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React from "react";
-import Nav from "./Nav.js";
-import Footer from "./Footer.js";
-import Home from "./Home.js";
-import About from "./About.js";
-import Contact from "./Contact.js";
-import Services from "./Services.js";
-import Location from "./Location.js";
-import Podiatry from "./Podiatry.js";
-import NotFound from "./NotFound.js";
+import Nav from "./Nav.jsx";
+import Footer from "./Footer.jsx";
+import Home from "./Home.jsx";
+import About from "./About.jsx";
+import Contact from "./Contact.jsx";
+import Services from "./Services.jsx";
+import Location from "./Location.jsx";
+import Podiatry from "./Podiatry.jsx";
+import NotFound from "./NotFound.jsx";
 import { HelmetProvider } from "react-helmet-async";
 
 function App() {
