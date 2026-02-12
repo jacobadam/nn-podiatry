@@ -101,7 +101,7 @@ export default function Podiatry() {
               </div>
             </section>
             <div className="w-full lg:justify-start justify-center items-start flex">
-              <div className="sm:w-[564px] w-full sm:h-[646px] h-full  rounded-2xl relative">
+              <div className="sm:w-141 w-full sm:h-161.5 h-full  rounded-2xl relative">
                 <img
                   className="w-full h-full opacity-80 rounded-3xl object-cover"
                   src="/footcare.webp"
