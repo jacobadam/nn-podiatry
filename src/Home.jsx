@@ -33,11 +33,11 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-cyan-600 opacity-60 lg:opacity-40"></div>
         <div className="relative z-10 flex flex-col items-center text-center md:items-end md:text-right px-6 md:px-16 lg:px-24">
-          <h2 className="tracking-wide text-white text-sm font-semibold md:text-base mb-2">
+          <h2 className="tracking-wide text-white text-sm font-semibold md:text-base mb-4 md:mb-2">
             Over 40 Years of Experience in Podiatry
           </h2>
 
-          <h1 className="text-white font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-2">
+          <h1 className="text-white font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-4 md:mb-2">
             Neil Nevitt
           </h1>
 
