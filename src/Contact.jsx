@@ -38,7 +38,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen">
+    <>
       <section aria-labelledby="contact-title">
         <div className="max-w-(--breakpoint-md) mx-auto p-4 sm:px-6 lg:px-8">
           <h1
@@ -150,6 +150,6 @@ export default function Contact() {
           </form>
         </div>
       </section>
-    </div>
+    </>
   );
 }

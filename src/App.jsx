@@ -12,7 +12,7 @@ import NotFound from "./NotFound.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen bg-white font-roboto">
+      <div className="min-h-screen bg-white font-roboto">
         <Nav />
         <main className="grow">
           <Routes>

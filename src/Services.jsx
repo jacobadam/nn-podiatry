@@ -1,7 +1,7 @@
 export default function Services() {
   return (
-    <section className="min-h-screen">
-      <div className="mx-auto py-2 px-4 mb-8">
+    <div className="mx-auto py-2 px-4 mb-8">
+      <section aria-labelledby="services-title">
         <div className="text-xl py-2 font-normal text-center tracking-wider">
           <h1 className="mb-8 text-3xl tracking-tight font-bold text-gray-900">
             Our Services
@@ -230,7 +230,7 @@ export default function Services() {
             </div>
           </a>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }

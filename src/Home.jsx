@@ -3,8 +3,11 @@ import "./index.css";
 
 export default function Home() {
   return (
-    <section className="flex flex-col w-full min-h-screen">
-      <section className="relative flex flex-col justify-center w-full min-h-[60vh] lg:mt-16">
+    <div className="flex flex-col w-full">
+      <section
+        className="relative flex flex-col justify-center w-full min-h-[60vh] lg:mt-16"
+        aria-labelledby="home-title"
+      >
         <img
           src="/homepage-image-mobile.webp"
           alt="A podiatrist providing foot care to a patient."
@@ -80,6 +83,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </section>
+    </div>
   );
 }
