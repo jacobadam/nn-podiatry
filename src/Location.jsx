@@ -1,5 +1,4 @@
 import { APIProvider, Map, AdvancedMarker } from "@vis.gl/react-google-maps";
-import { Helmet } from "react-helmet-async";
 
 const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 const MAP_ID = import.meta.env.VITE_MAP_ID;
@@ -16,14 +15,6 @@ const center = {
 export default function Location() {
   return (
     <section className="min-h-screen" aria-labelledby="location-heading">
-      <Helmet>
-        <title>Neil Nevitt - Location</title>
-        <link rel="canonical" href="https://www.neilnevitt.com/location" />
-        <meta
-          name="description"
-          content="Find Neil Nevitt's podiatry practice location in Liverpool, including address, contact details, and directions."
-        />
-      </Helmet>
       <div className="max-w-7xl mx-auto p-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
           <h1

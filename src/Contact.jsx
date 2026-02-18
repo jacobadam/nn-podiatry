@@ -1,5 +1,4 @@
-import React, { useRef, useState } from "react";
-import { Helmet } from "react-helmet-async";
+import { useRef, useState } from "react";
 
 export default function Contact() {
   const form = useRef();
@@ -40,14 +39,6 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen">
-      <Helmet>
-        <title>Neil Nevitt - Contact</title>
-        <link rel="canonical" href="https://www.neilnevitt.com/contact" />
-        <meta
-          name="description"
-          content="Contact Neil Nevitt for appointments and inquiries. Morning, afternoon, and evening appointments available."
-        />
-      </Helmet>
       <section aria-labelledby="contact-title">
         <div className="max-w-(--breakpoint-md) mx-auto p-4 sm:px-6 lg:px-8">
           <h1

@@ -1,17 +1,6 @@
-import { Helmet } from "react-helmet-async";
-
 export default function About() {
   return (
     <div className="min-h-screen bg-white">
-      <Helmet>
-        <title>Neil Nevitt - About</title>
-        <link rel="canonical" href="https://www.neilnevitt.com/about" />
-        <meta
-          name="description"
-          content="Learn about Neil Nevitt's qualifications and experience as a Liverpool-based podiatrist."
-        />
-      </Helmet>
-
       <div className="flex items-center justify-center py-8 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-12">
         <section
           className="bg-gray-50 py-8 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 mx-auto max-w-full sm:max-w-lg md:max-w-xl lg:max-w-4xl xl:max-w-4xl rounded-lg shadow-lg lg:grid lg:grid-cols-2 lg:gap-8"
