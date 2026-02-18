@@ -1,16 +1,6 @@
-import { Helmet } from "react-helmet-async";
-
-export default function Conditions() {
+export default function Services() {
   return (
-    <div className="min-h-screen">
-      <Helmet>
-        <title>Neil Nevitt - Services</title>
-        <link rel="canonical" href="https://www.neilnevitt.com/services" />
-        <meta
-          name="description"
-          content="Explore the range of podiatry services offered by Neil Nevitt, including diabetic foot care, nail surgery, and more."
-        />
-      </Helmet>
+    <section className="min-h-screen">
       <div className="mx-auto py-2 px-4 mb-8">
         <div className="text-xl py-2 font-normal text-center tracking-wider">
           <h1 className="mb-8 text-3xl tracking-tight font-bold text-gray-900">
@@ -241,6 +231,6 @@ export default function Conditions() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
