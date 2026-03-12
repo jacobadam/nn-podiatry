@@ -1,236 +1,66 @@
+import { services } from "../data/services";
+
 export default function Services() {
   return (
-    <div className="mx-auto py-2 px-4 mb-8">
-      <section aria-labelledby="services-title">
-        <div className="text-xl py-2 font-normal text-center tracking-wider">
-          <h1 className="mb-8 text-3xl tracking-tight font-bold text-gray-900">
-            Our Services
-          </h1>
-        </div>
-        <div className="w-fit gap-6 mx-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
+    <section
+      aria-labelledby="services-title"
+      className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8"
+    >
+      <div className="mx-auto max-w-3xl text-center">
+        <h1
+          id="services-title"
+          className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+        >
+          Our Services
+        </h1>
+        <p className="mt-4 text-base leading-7 text-gray-600 sm:text-lg">
+          Professional podiatry services and trusted guidance for a range of
+          common foot health concerns.
+        </p>
+      </div>
+
+      <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:mt-10 lg:grid-cols-3 xl:grid-cols-4">
+        {services.map((service) => (
           <a
-            href="https://rcpod.org.uk/patient-information/diabetes"
+            key={service.slug}
+            href={service.href}
             target="_blank"
             rel="noreferrer"
-            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
-            aria-labelledby="diabetic-feet-title"
-            aria-describedby="diabetic-feet-description"
-            aria-label="Learn more about Diabetic Feet"
+            className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md "
+            aria-labelledby={`${service.slug}-title`}
+            aria-describedby={`${service.slug}-description`}
+            aria-label={`Learn more about ${service.title}`}
           >
-            <div className="p-2">
+            <div className="p-3">
               <img
-                className="rounded-lg h-32 w-full"
-                src={"/diabetic-feet.webp"}
-                alt="Diabetic Feet"
+                className="aspect-4/3 w-full rounded-xl object-cover"
+                src={service.image}
+                alt={service.alt}
               />
             </div>
-            <div className="px-4 py-2 text-xl font-semibold text-center">
-              <h2 id="diabetic-feet-title">Diabetic Feet</h2>
-            </div>
-            <div className="flex justify-between px-4 py-2 text-base font-normal text-center mb-1">
-              <p id="diabetic-feet-description">
-                Diabetes causes high blood glucose, damaging nerves and blood
-                vessels, affecting circulation to legs, feet, and tissues.
+
+            <div className="flex flex-1 flex-col px-5 pb-5 pt-1 text-center">
+              <h2
+                id={`${service.slug}-title`}
+                className="text-xl font-semibold text-gray-900"
+              >
+                {service.title}
+              </h2>
+
+              <p
+                id={`${service.slug}-description`}
+                className="mt-3 flex-1 text-sm leading-7 text-gray-600"
+              >
+                {service.description}
               </p>
-            </div>
-            <div className="p-2 text-center">
-              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+
+              <span className="mt-6 inline-flex min-h-11 items-center justify-center self-center select-none rounded-lg bg-cyan-600 px-6 py-3 text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40">
                 Learn more
               </span>
             </div>
           </a>
-          <a
-            href="https://rcpod.org.uk/common-foot-problems/ageing-feet"
-            target="_blank"
-            rel="noreferrer"
-            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
-            aria-labelledby="ageing-feet-title"
-            aria-describedby="ageing-feet-description"
-            aria-label="Learn more about Ageing Feet"
-          >
-            <div className="p-2">
-              <img
-                className="rounded-lg h-32 w-full"
-                src={"/ageing-feet.webp"}
-                alt="Ageing Feet"
-              />
-            </div>
-            <div className="px-4 py-2 text-xl font-semibold text-center">
-              <h2 id="ageing-feet-title">Ageing Feet</h2>
-            </div>
-            <div className="flex justify-between px-4 py-2 text-base font-normal text-center mb-1">
-              <p id="ageing-feet-description">
-                Ageing causes foot issues due to joint wear, thinner skin, and
-                dryness; routine care prevents serious problems and aids
-                mobility.
-              </p>
-            </div>
-            <div className="p-2 text-center">
-              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-                Learn more
-              </span>
-            </div>
-          </a>
-          <a
-            href="https://rcpod.org.uk/common-foot-problems/ingrowing-toenail"
-            target="_blank"
-            rel="noreferrer"
-            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
-            aria-labelledby="ingrowing-toenail-title"
-            aria-describedby="ingrowing-toenail-description"
-            aria-label="Learn more about Ingrowing Toenail"
-          >
-            <div className="p-2">
-              <img
-                className="rounded-lg h-32 w-full"
-                src={"/ingrowing-toenail.webp"}
-                alt="Ingrowing Toenail"
-              />
-            </div>
-            <div className="px-4 py-2 text-xl font-semibold text-center">
-              <h2 id="ingrowing-toenail-title">Ingrowing Toenail </h2>
-            </div>
-            <div className="flex justify-between px-4 py-2 text-base font-normal text-center mb-1">
-              <p id="ingrowing-toenail-description">
-                An ingrown toenail pierces flesh, causing pain, inflammation, or
-                infection. It often affects the big toe but can affect others.
-              </p>
-            </div>
-            <div className="p-2 text-center">
-              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-                Learn more
-              </span>
-            </div>
-          </a>
-          <a
-            href="https://rcpod.org.uk/patient-information/arthritis/arthritis-leaflets/toenail-surgery-for-people-with-a-rheumatic-condition"
-            target="_blank"
-            rel="noreferrer"
-            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
-            aria-labelledby="nail-surgery-title"
-            aria-describedby="nail-surgery-description"
-            aria-label="Learn more about Nail Surgery"
-          >
-            <div className="p-2">
-              <img
-                className="rounded-lg h-32 w-full"
-                src={"/nail-surgery.webp"}
-                alt="Nail Surgery"
-              />
-            </div>
-            <div className="px-4 py-2 text-xl font-semibold text-center">
-              <h2 id="nail-surgery-title">Nail Surgery</h2>
-            </div>
-            <div className="flex justify-between px-4 py-2 text-base font-normal text-center mb-1">
-              <p id="nail-surgery-description">
-                Nail surgery performed by qualified professionals removes
-                problematic toenails and may use chemicals to prevent regrowth.
-              </p>
-            </div>
-            <div className="p-2 text-center">
-              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-                Learn more
-              </span>
-            </div>
-          </a>
-          <a
-            href="https://rcpod.org.uk/common-foot-problems/corns-callus"
-            target="_blank"
-            rel="noreferrer"
-            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
-            aria-labelledby="corn-callus-title"
-            aria-describedby="corn-callus-description"
-            aria-label="Learn more about Corns and Calluses"
-          >
-            <div className="p-2">
-              <img
-                className="rounded-lg h-32 w-full"
-                src={"/corn-callus.webp"}
-                alt="Corn Callus"
-              />
-            </div>
-            <div className="px-4 py-2 text-xl font-semibold text-center">
-              <h2 id="corn-callus-title">Corns and Calluses</h2>
-            </div>
-            <div className="flex justify-between px-4 py-2 text-base font-normal text-center mb-1">
-              <p id="corn-callus-description">
-                Walking and standing pressure can cause corns and calluses.
-                Calluses are areas of hard skin on the sole; corns form over
-                bony areas.
-              </p>
-            </div>
-            <div className="p-2 text-center">
-              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-                Learn more
-              </span>
-            </div>
-          </a>
-          <a
-            href="https://rcpod.org.uk/common-foot-problems/verrucae"
-            target="_blank"
-            rel="noreferrer"
-            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
-            aria-labelledby="verrucae-title"
-            aria-describedby="verrucae-description"
-            aria-label="Learn more about Verrucae"
-          >
-            <div className="p-2">
-              <img
-                className="rounded-lg h-32 w-full"
-                src={"/verrucae.webp"}
-                alt="Verrucae"
-              />
-            </div>
-            <div className="px-4 py-2 text-xl font-semibold text-center">
-              <h2 id="verrucae-title">Verrucae</h2>
-            </div>
-            <div className="flex justify-between px-4 py-2 text-base font-normal text-center mb-1">
-              <p id="verrucae-description">
-                Verrucae are plantar warts caused by the contagious Human
-                Papilloma Virus. They can occur on the soles of the feet or
-                around the toe area.
-              </p>
-            </div>
-            <div className="p-2 text-center">
-              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-                Learn more
-              </span>
-            </div>
-          </a>
-          <a
-            href="https://rcpod.org.uk/common-foot-problems/flat-foot-management"
-            target="_blank"
-            rel="noreferrer"
-            className="w-64 shadow-md rounded-sm bg-white hover:scale-102 duration-300 hover:shadow-xl h-96 block"
-            aria-labelledby="musculoskeletal-title"
-            aria-describedby="musculoskeletal-description"
-            aria-label="Learn more about Musculoskeletal Podiatry"
-          >
-            <div className="p-2">
-              <img
-                className="rounded-lg h-32 w-full"
-                src={"/msk-podiatry.webp"}
-                alt="Musculoskeletal"
-              />
-            </div>
-            <div className="px-4 py-2 text-xl font-semibold text-center">
-              <h2 id="musculoskeletal-title">Musculoskeletal</h2>
-            </div>
-            <div className="flex justify-between px-4 py-2 text-base font-normal text-center mb-1">
-              <p id="musculoskeletal-description">
-                MSK (Musculoskeletal) is a specialist area of podiatry which
-                concentrates on functional and structural issues of the foot and
-                ankle.
-              </p>
-            </div>
-            <div className="p-2 text-center">
-              <span className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-                Learn more
-              </span>
-            </div>
-          </a>
-        </div>
-      </section>
-    </div>
+        ))}
+      </div>
+    </section>
   );
 }
