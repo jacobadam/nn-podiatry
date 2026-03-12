@@ -1,107 +1,112 @@
 export default function Podiatry() {
   return (
-    <div className="mx-auto py-2 px-4 mb-8">
-      <section aria-labelledby="podiatry-title">
-        <div className="text-xl py-2 font-medium text-center tracking-wider">
-          <h1 className="mb-8 text-3xl tracking-tight font-bold text-gray-900">
-            What is Podiatry?
-          </h1>
-        </div>
-        <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-          <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
-            <div className="py-4 antialiased">
-              <div className="mx-auto max-w-(--breakpoint-xl) px-4 sm:px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl text-center">
-                  <div className="mx-auto max-w-2xl space-y-6 text-center sm:text-left">
-                    <p
-                      className="text-base font-normal text-gray-500"
-                      id="podiatry-intro"
-                    >
-                      Podiatry (or chiropody) is the medical speciality of
-                      caring for feet. (The terms podiatry and chiropody are
-                      interchangeable, although there are a growing number of
-                      surgical podiatrists in the UK who actually carry out
-                      ambulatory foot surgery on patients to treat conditions
-                      such as bunions and hammer toes).
-                    </p>
-                    <p
-                      className="text-base font-normal text-gray-500"
-                      id="podiatry-treatments"
-                    >
-                      Podiatrists treat conditions on the feet such as hard
-                      skin, corns, nails (and in particular, are specialists in
-                      treating ingrowing toenails which can be cured by way of a
-                      minor surgical procedure under a local anaesthetic - a
-                      procedure that can be carried out in the surgery and takes
-                      less than an hour). Podiatrists also treat verrucae
-                      (plantar warts) although the present advice of the BMA
-                      (British Medical Association) is to not treat verrucae
-                      unless they are causing pain. Painful verrucae can still
-                      be treated by podiatrists.
-                    </p>
-                    <p
-                      className="text-base font-normal text-gray-500"
-                      id="podiatry-diabetics"
-                    >
-                      Podiatrists also care for the feet of diabetics, whether
-                      insulin or non-insulin dependent. Due to the effect of
-                      diabetes on the feet, a diabetic is at greater risk of
-                      suffering from peripheral vascular disease (circulatory
-                      problems) and they can also suffer from peripheral
-                      neuropathy (when there is a reduction in the sensation in
-                      the feet). If not cared for, diabetics run a high risk of
-                      serious foot problems, many of which can be prevented by
-                      regular podiatry treatment.
-                    </p>
+    <section
+      aria-labelledby="podiatry-title"
+      className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8"
+    >
+      <div className="mx-auto max-w-3xl text-center">
+        <h1
+          id="podiatry-title"
+          className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+        >
+          What is Podiatry?
+        </h1>
+        <p className="mt-4 text-base leading-7 text-gray-600 sm:text-lg">
+          Professional foot care, treatment, and preventative support for a wide
+          range of conditions.
+        </p>
+      </div>
 
-                    <p
-                      className="space-y-4 font-normal text-gray-500"
-                      id="hcpc-info"
-                    >
-                      <strong>Health Care Professional Council (HCPC)</strong> -
-                      check if your podiatrist is on the HCPC list
-                    </p>
-                    <a
-                      href="https://www.hcpc-uk.org/check-the-register/"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="Go to check the HCPC register page"
-                      className="text-rose-600 font-semibold hover:underline"
-                    >
-                      Click here for more information
-                    </a>
-                    <p
-                      className="space-y-4 font-normal text-gray-500"
-                      id="rcp-info"
-                    >
-                      <strong>Royal College of Podiatry</strong> - check if your
-                      podiatrist is a member of the Royal College of Podiatry
-                    </p>
-                    <a
-                      href="https://rcpod.org.uk/find-a-podiatrist#FIND.PODIATRIST"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="Go to check if your podiatrist is a Royal College member page"
-                      className="text-rose-600 font-semibold hover:underline"
-                    >
-                      Click here for more information
-                    </a>
-                  </div>
-                </div>
-              </div>
+      <div className="mt-8 grid items-center gap-10 lg:mt-10 lg:grid-cols-2 lg:gap-16">
+        <div className="order-2 lg:order-1">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <div className="space-y-4 text-sm leading-7 text-gray-600 sm:text-base sm:leading-8">
+              <p id="podiatry-intro">
+                Podiatry (or chiropody) is the medical speciality of caring for
+                feet. The terms podiatry and chiropody are interchangeable,
+                although there are a growing number of surgical podiatrists in
+                the UK who carry out ambulatory foot surgery to treat conditions
+                such as bunions and hammer toes.
+              </p>
+
+              <p id="podiatry-treatments">
+                Podiatrists treat conditions of the feet such as hard skin,
+                corns, and nail problems. They are specialists in treating
+                ingrowing toenails, which can be cured with a minor surgical
+                procedure performed under local anaesthetic. This treatment can
+                usually be carried out in the clinic and typically takes less
+                than an hour. Podiatrists also treat verrucae (plantar warts),
+                although the British Medical Association currently advises not
+                treating them unless they are causing pain.
+              </p>
+
+              <p id="podiatry-diabetics">
+                Podiatrists also care for the feet of people with diabetes. Due
+                to the effects diabetes can have on the feet, individuals are at
+                greater risk of peripheral vascular disease (circulatory
+                problems) and peripheral neuropathy, which reduces sensation in
+                the feet. Without proper care, diabetics have a higher risk of
+                serious foot complications, many of which can be prevented
+                through regular podiatry treatment.
+              </p>
             </div>
-            <div className="w-full lg:justify-start justify-center items-start flex">
-              <div className="sm:w-141 w-full sm:h-161.5 h-full  rounded-2xl relative">
-                <img
-                  className="w-full h-full opacity-80 rounded-3xl object-cover"
-                  src="/footcare.webp"
-                  alt="footcare"
-                />
+
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
+              <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                <p
+                  id="hcpc-info"
+                  className="text-sm leading-6 text-gray-600 sm:text-base"
+                >
+                  <span className="font-semibold text-gray-900">HCPC</span> -
+                  Check whether your podiatrist is on the HCPC register.
+                </p>
+                <a
+                  href="https://www.hcpc-uk.org/check-the-register/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Go to check the HCPC register page"
+                  className="mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-rose-600 underline-offset-4 transition hover:underline focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2"
+                >
+                  Check the HCPC register
+                </a>
+              </div>
+
+              <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                <p
+                  id="rcp-info"
+                  className="text-sm leading-6 text-gray-600 sm:text-base"
+                >
+                  <span className="font-semibold text-gray-900">
+                    Royal College of Podiatry
+                  </span>{" "}
+                  - Check whether your podiatrist is a member.
+                </p>
+                <a
+                  href="https://rcpod.org.uk/find-a-podiatrist#FIND.PODIATRIST"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Go to check if your podiatrist is a Royal College member page"
+                  className="mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-rose-600 underline-offset-4 transition hover:underline focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2"
+                >
+                  Find a podiatrist
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
+
+        <div className="order-1 lg:order-2">
+          <div className="mx-auto max-w-xl lg:ml-auto lg:max-w-none">
+            <div className="overflow-hidden rounded-3xl border border-gray-200 bg-gray-100 shadow-lg">
+              <img
+                className="aspect-4/3 w-full object-cover lg:aspect-5/6 opacity-80"
+                src="/footcare.webp"
+                alt="footcare"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
