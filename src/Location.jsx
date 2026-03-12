@@ -51,49 +51,54 @@ export default function Location() {
           </APIProvider>
         </div>
 
-        <div className="space-y-4">
-          <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
-            <h3
-              id="address-heading"
-              className="text-lg font-semibold text-gray-900"
-            >
-              Address
-            </h3>
-            <p
-              className="mt-2 text-sm leading-6 text-gray-600 sm:text-base"
-              aria-labelledby="address-heading"
-            >
-              183 Queens Drive
-              <br />
-              Liverpool
-              <br />
-              L15 6XU
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
-            <h3
-              id="contact-heading"
-              className="text-lg font-semibold text-gray-900"
-            >
-              Contact
-            </h3>
-            <div
-              className="mt-2 space-y-1 text-sm leading-6 text-gray-600 sm:text-base"
-              aria-labelledby="contact-heading"
-            >
-              <p>Email: neilnev@hotmail.com</p>
-              <p>Tel: 0151 722 3840</p>
-              <p>Mob: 07946 582000</p>
+        <div className="flex h-full flex-col justify-center">
+          <div className="space-y-6">
+            <div>
+              <h3
+                id="address-heading"
+                className="text-lg font-semibold text-gray-900"
+              >
+                Address
+              </h3>
+              <p
+                className="mt-2 text-sm leading-7 text-gray-600 sm:text-base"
+                aria-labelledby="address-heading"
+              >
+                183 Queens Drive
+                <br />
+                Liverpool
+                <br />
+                L15 6XU
+              </p>
             </div>
-          </div>
 
-          <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
-            <img
-              className="mx-auto h-auto w-48 sm:w-56"
-              src="/accepted-cards.webp"
-              alt="Accepted payment cards"
-            />
+            <div className="border-t border-gray-200 pt-6">
+              <h3
+                id="contact-heading"
+                className="text-lg font-semibold text-gray-900"
+              >
+                Contact
+              </h3>
+              <div
+                className="mt-2 space-y-1 text-sm leading-7 text-gray-600 sm:text-base"
+                aria-labelledby="contact-heading"
+              >
+                <p>Email: neilnev@hotmail.com</p>
+                <p>Tel: 0151 722 3840</p>
+                <p>Mob: 07946 582000</p>
+              </div>
+            </div>
+
+            <div className="border-t border-gray-200 pt-6">
+              <h3 className="text-lg font-semibold text-gray-900">
+                Accepted Payments
+              </h3>
+              <img
+                className="mt-3 h-auto w-48 sm:w-56"
+                src="/accepted-cards.webp"
+                alt="Accepted payment cards"
+              />
+            </div>
           </div>
         </div>
       </div>
