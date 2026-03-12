@@ -62,15 +62,17 @@ export default function Podiatry() {
                     id="hcpc-info"
                     className="text-sm leading-6 text-gray-600 sm:text-base"
                   >
-                    <span className="font-semibold text-gray-900">HCPC</span> -
-                    Check whether your podiatrist is on the HCPC register.
+                    <span className="font-semibold text-gray-900">
+                      Health Care Professional Council (HCPC)
+                    </span>
+                    - Check whether your podiatrist is on the HCPC register.
                   </p>
                   <a
                     href="https://www.hcpc-uk.org/check-the-register/"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Go to check the HCPC register page"
-                    className="mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-cyan-700 underline-offset-4 transition hover:underline focus:outline-none"
+                    className="mt-0 lg:mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-cyan-700 underline-offset-4 transition hover:underline focus:outline-none"
                   >
                     Check the HCPC register
                   </a>
@@ -82,16 +84,16 @@ export default function Podiatry() {
                     className="text-sm leading-6 text-gray-600 sm:text-base"
                   >
                     <span className="font-semibold text-gray-900">
-                      Royal College of Podiatry
-                    </span>{" "}
-                    - Check whether your podiatrist is a member.
+                      Royal College of Podiatry (RCoP)
+                    </span>
+                    - Check whether your podiatrist is a member of the RCoP
                   </p>
                   <a
                     href="https://rcpod.org.uk/find-a-podiatrist#FIND.PODIATRIST"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Go to check if your podiatrist is a Royal College member page"
-                    className="mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-cyan-700 underline-offset-4 transition hover:underline focus:outline-none"
+                    className="mt-0 lg:mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-cyan-700 underline-offset-4 transition hover:underline focus:outline-none"
                   >
                     Find a podiatrist
                   </a>
