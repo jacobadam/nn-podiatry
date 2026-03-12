@@ -14,7 +14,7 @@ export default function Home() {
           className="absolute inset-0 h-full w-full object-cover"
           srcSet="/homepage-image-mobile.webp 768w, /homepage-image-optimized.webp 2124w"
           sizes="(max-width: 768px) 100vw, 100vw"
-          fetchpriority="high"
+          fetchPriority="high"
         />
 
         <div className="absolute inset-0 bg-cyan-700/60 lg:bg-cyan-700/45" />
