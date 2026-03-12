@@ -167,16 +167,6 @@ export default function Nav() {
           )}
         </div>
       </nav>
-
-      {!isHomePage && (
-        <div className="w-full">
-          <img
-            src="/pebble-footprint.webp"
-            alt="Banner"
-            className="h-60 w-full object-cover"
-          />
-        </div>
-      )}
     </>
   );
 }
