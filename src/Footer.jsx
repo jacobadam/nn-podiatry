@@ -2,18 +2,19 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-blue-950 text-gray-300 py-6" role="contentinfo">
-      <div className="md:pl-8">
-        <p className="text-center md:text-left text-sm">
+    <footer className="bg-blue-950 py-6 text-gray-300" role="contentinfo">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <p className="text-center text-sm sm:text-left">
           &copy; {currentYear} Neil Nevitt. All rights reserved.
         </p>
-        <p className="text-center md:text-left text-xs mt-1">
+
+        <p className="mt-1 text-center text-xs sm:text-left">
           Designed by{" "}
           <a
             href="https://www.greenhousewebdesigns.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-white transition-colors underline underline-offset-2"
+            className="font-medium text-gray-200 underline underline-offset-4 transition hover:text-white"
           >
             Greenhouse Web Designs
           </a>
