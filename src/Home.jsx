@@ -3,83 +3,94 @@ import "./index.css";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex w-full flex-col">
       <section
-        className="relative flex flex-col justify-center w-full min-h-[60vh] lg:mt-16"
+        className="relative flex min-h-[70vh] w-full items-center overflow-hidden lg:min-h-[78vh]"
         aria-labelledby="home-title"
       >
         <img
           src="/homepage-image-mobile.webp"
           alt="A podiatrist providing foot care to a patient."
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover"
           srcSet="/homepage-image-mobile.webp 768w, /homepage-image-optimized.webp 2124w"
           sizes="(max-width: 768px) 100vw, 100vw"
           fetchpriority="high"
         />
-        <div className="absolute inset-0 bg-cyan-600 opacity-60 lg:opacity-40"></div>
-        <div className="relative z-10 flex flex-col items-center text-center md:items-end md:text-right px-6 md:px-16 lg:px-24">
-          <h2 className="tracking-wide text-white text-sm font-semibold md:text-base mb-4 md:mb-2">
-            Over 40 Years of Experience in Podiatry
-          </h2>
 
-          <h1 className="text-white font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-4 md:mb-2">
-            Neil Nevitt
-          </h1>
+        <div className="absolute inset-0 bg-cyan-700/60 lg:bg-cyan-700/45" />
 
-          <div className="text-white text-lg md:text-xl lg:text-2xl mb-6 space-y-2">
-            <p className="font-semibold">DPodM, MRCoP</p>
-            <p className="font-semibold">HCPC (State) Registered</p>
+        <div className="relative z-10 mx-auto flex w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+          <div className="mx-auto max-w-2xl text-center md:ml-auto md:mr-0 md:text-right">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-white/90 sm:text-base">
+              Over 40 Years of Experience in Podiatry
+            </p>
+
+            <h1
+              id="home-title"
+              className="mt-4 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl"
+            >
+              Neil Nevitt
+            </h1>
+
+            <div className="mt-5 space-y-2 text-base text-white sm:text-lg lg:text-xl">
+              <p className="font-semibold">DPodM, MRCoP</p>
+              <p className="font-semibold">HCPC (State) Registered</p>
+            </div>
+
+            <div className="mt-8">
+              <Link
+                to="/contact"
+                className="inline-flex min-h-11 items-center justify-center rounded-lg bg-white px-6 py-3 text-sm font-bold uppercase tracking-wide text-cyan-700 shadow-md transition hover:bg-cyan-50 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-cyan-700"
+                aria-label="Get in touch with Neil Nevitt"
+              >
+                Get In Touch
+              </Link>
+            </div>
           </div>
-
-          <Link
-            to="/contact"
-            className="mt-4 bg-white text-cyan-600 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:bg-white hover:ring-2 hover:ring-cyan-600 hover:ring-offset-2 pointer-events-auto"
-            aria-label="Get in touch with Neil Nevitt"
-          >
-            Get In Touch
-          </Link>
         </div>
       </section>
 
-      <section className="w-full bg-white flex items-center grow">
-        <div className="max-w-5xl mx-auto w-full grid grid-cols-1 md:grid-cols-3 lg:pt-6 2xl:py-6 text-center lg:text-left">
-          <div className="bg-cyan-500 text-white p-6 md:p-10 flex flex-col lg:min-h-80">
-            <h2 className="text-xl font-semibold mb-4 md:mt-8">
-              Trusted Expertise
-            </h2>
-            <p className="text-base leading-relaxed grow">
-              First-class foot care and health support from an experienced,
-              reliable professional.
-            </p>
-          </div>
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+          <div className="grid gap-4 md:grid-cols-3">
+            <div className="rounded-2xl bg-cyan-500 p-6 text-center text-white shadow-sm sm:p-8 lg:text-left">
+              <h2 className="text-xl font-semibold tracking-tight">
+                Trusted Expertise
+              </h2>
+              <p className="mt-4 text-sm leading-7 sm:text-base">
+                First-class foot care and health support from an experienced,
+                reliable professional.
+              </p>
+            </div>
 
-          <div className="bg-cyan-600 text-white p-6 md:p-10 flex flex-col md:min-h-80">
-            <h2 className="text-xl font-semibold mb-4 md:mt-8">Treatments</h2>
-            <p className="text-base leading-relaxed grow">
-              Our podiatric treatments offer personalized solutions to relieve
-              discomfort, correct problems, and keep your feet in optimal
-              condition.
-            </p>
-          </div>
+            <div className="rounded-2xl bg-cyan-600 p-6 text-center text-white shadow-sm sm:p-8 lg:text-left">
+              <h2 className="text-xl font-semibold tracking-tight">
+                Treatments
+              </h2>
+              <p className="mt-4 text-sm leading-7 sm:text-base">
+                Our podiatric treatments offer personalized solutions to relieve
+                discomfort, correct problems, and keep your feet in optimal
+                condition.
+              </p>
+            </div>
 
-          <div className="bg-blue-800 text-white p-6 md:p-10 flex flex-col md:min-h-80">
-            <h2 className="text-xl font-semibold mb-4 md:mt-8">Contact</h2>
-            <ul className="space-y-4 grow">
-              <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
-                <span className="font-normal">Phone:</span>
-                <p className="lg:text-right font-normal">0151 722 3840</p>
-              </li>
-              <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
-                <span className="font-normal">Mobile:</span>
-                <p className="lg:text-right font-normal">07946 582 000</p>
-              </li>
-              <li className="flex flex-col lg:flex-row lg:justify-between border-b border-white/30 pb-2">
-                <span className="font-normal">Email:</span>
-                <p className="lg:text-right wrap-break-word font-normal">
-                  neilnev@hotmail.com
-                </p>
-              </li>
-            </ul>
+            <div className="rounded-2xl bg-blue-800 p-6 text-center text-white shadow-sm sm:p-8 lg:text-left">
+              <h2 className="text-xl font-semibold tracking-tight">Contact</h2>
+              <ul className="mt-4 space-y-4 text-sm sm:text-base">
+                <li className="border-b border-white/20 pb-3">
+                  <span className="block font-semibold">Phone</span>
+                  <p className="mt-1 wrap-break-word">0151 722 3840</p>
+                </li>
+                <li className="border-b border-white/20 pb-3">
+                  <span className="block font-semibold">Mobile</span>
+                  <p className="mt-1 wrap-break-word">07946 582 000</p>
+                </li>
+                <li className="border-b border-white/20 pb-3">
+                  <span className="block font-semibold">Email</span>
+                  <p className="mt-1 wrap-break-word">neilnev@hotmail.com</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
