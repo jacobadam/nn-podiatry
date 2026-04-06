@@ -50,7 +50,7 @@ export default function Nav() {
                   key={item.to}
                   to={item.to}
                   role="menuitem"
-                  className="text-sm font-medium text-gray-800 transition hover:text-cyan-600"
+                  className="text-base font-medium text-gray-800 transition hover:text-cyan-600"
                 >
                   {({ isActive }) => (
                     <span className="flex flex-col items-center">
