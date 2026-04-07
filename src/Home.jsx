@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex w-full flex-col">
       <section
-        className="relative flex min-h-[70vh] w-full items-center overflow-hidden lg:min-h-[78vh]"
+        className="relative flex min-h-[70vh] w-full items-center overflow-hidden lg:min-h-[61vh] 2xl:min-h-[78vh]"
         aria-labelledby="home-title"
       >
         <img
@@ -51,9 +51,9 @@ export default function Home() {
       </section>
 
       <section className="bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 lg:py-4">
           <div className="grid gap-4 md:grid-cols-3">
-            <div className="rounded-2xl bg-cyan-500 p-6 text-center text-white shadow-sm sm:p-8 lg:text-left">
+            <div className="rounded-2xl bg-cyan-500 p-6 text-center text-white shadow-sm sm:px-6 sm:py-4 lg:text-left">
               <h2 className="text-xl font-semibold tracking-tight">
                 Trusted Expertise
               </h2>
@@ -63,7 +63,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="rounded-2xl bg-cyan-600 p-6 text-center text-white shadow-sm sm:p-8 lg:text-left">
+            <div className="rounded-2xl bg-cyan-600 p-6 text-center text-white shadow-sm sm:px-6 sm:py-4  lg:text-left">
               <h2 className="text-xl font-semibold tracking-tight">
                 Treatments
               </h2>
@@ -74,7 +74,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="rounded-2xl bg-blue-800 p-6 text-center text-white shadow-sm sm:p-8 lg:text-left">
+            <div className="rounded-2xl bg-blue-800 p-6 text-center text-white shadow-sm sm:px-6 sm:py-4  lg:text-left">
               <h2 className="text-xl font-semibold tracking-tight">Contact</h2>
               <ul className="mt-4 space-y-4 text-sm sm:text-base">
                 <li className="border-b border-white/20 pb-3">
@@ -85,7 +85,7 @@ export default function Home() {
                   <span className="block font-semibold">Mobile</span>
                   <p className="mt-1 wrap-break-word">07946 582 000</p>
                 </li>
-                <li className="border-b border-white/20 pb-3">
+                <li>
                   <span className="block font-semibold">Email</span>
                   <p className="mt-1 wrap-break-word">neilnev@hotmail.com</p>
                 </li>
