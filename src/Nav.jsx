@@ -27,7 +27,7 @@ export default function Nav() {
   return (
     <>
       <nav
-        className="sticky top-0 z-50 w-full bg-white py-5 shadow-sm"
+        className="sticky top-0 z-50 w-full bg-white py-3 shadow-sm"
         aria-label="Primary navigation"
       >
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
